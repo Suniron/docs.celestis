@@ -4,7 +4,7 @@
 
 # Les identifiants du jeu
 
-### Les objets: équipements, consommables, ressource
+### Les objets: équipements, consommables, ressources
 
 - [items.txt](https://suniron.github.io/docs.celestis/ids/items.txt)
 
