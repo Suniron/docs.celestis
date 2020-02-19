@@ -23,7 +23,7 @@
 
 Toutes les fonctions relatives au storage.
 
-**Tous les GID sont disponibles dans le fichier [items.txt](https://docs.Celestis.com/ids/items.txt).**
+**Tous les GID sont disponibles dans le fichier [items.txt](https://suniron.github.io/docs.celestis/ids/items.txt).**
 
 <hr>
 

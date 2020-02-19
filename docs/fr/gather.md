@@ -15,7 +15,7 @@
 
 Toutes les fonctions relatives à la récolte.
 
-**Les resourcesIds se trouvent dans [resources.txt](https://docs.Celestis.com/ids/resources.txt).**
+**Les resourcesIds se trouvent dans [resources.txt](https://suniron.github.io/docs.celestis/ids/resources.txt).**
 
 <hr>
 

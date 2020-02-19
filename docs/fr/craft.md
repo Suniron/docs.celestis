@@ -26,4 +26,4 @@ function* craftItem() {
 }
 ```
 
-**Tous les GID des items peuvent être trouvés dans [items.txt](https://docs.Celestis.com/ids/items.txt)**
+**Tous les GID des items peuvent être trouvés dans [items.txt](https://suniron.github.io/docs.celestis/ids/items.txt)**

@@ -1,3 +1,0 @@
-# CookieTouch Documentation
-
-- [Français](fr/)

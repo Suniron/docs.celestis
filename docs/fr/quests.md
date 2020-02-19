@@ -17,7 +17,7 @@
 
 Fonctions relatives aux quêtes
 
-**Tous les ID sont disponibles dans le fichier [quests.txt](https://docs.Celestis.com/ids/quests.txt).**
+**Tous les ID sont disponibles dans le fichier [quests.txt](https://suniron.github.io/docs.celestis/ids/quests.txt).**
 
 <h2 id="isactive">
   quests.isActive(<code>questId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
