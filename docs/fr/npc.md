@@ -1,4 +1,4 @@
-# CookieTouch API Documentation
+# Celestis API Documentation
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 

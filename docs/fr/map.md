@@ -1,4 +1,4 @@
-# CookieTouch API Documentation
+# Celestis API Documentation
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
@@ -33,7 +33,7 @@
 
 Toutes les fonctions relatives aux maps.
 
-Les cellId vont de 0 à 559, vous pouvez les afficher dans l'onglet Map de CookieTouch.
+Les cellId vont de 0 à 559, vous pouvez les afficher dans l'onglet Map de Celestis.
 
 <hr>
 
@@ -60,7 +60,7 @@ yield * changeMap("right"); // Change de map vers la droite
   moveToCell(<code>cellId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
 </h2>
 
-Permet de se déplacer sur une cellule. Les cellId vont de 0 à 559, vous pouvez les afficher dans l'onglet Map de CookieTouch.
+Permet de se déplacer sur une cellule. Les cellId vont de 0 à 559, vous pouvez les afficher dans l'onglet Map de Celestis.
 
 **Exemple:**
 

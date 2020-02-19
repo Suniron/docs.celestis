@@ -1,4 +1,4 @@
-# CookieTouch API Documentation
+# Celestis API Documentation
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
@@ -17,7 +17,7 @@
 
 Toutes les fonctions relatives aux métiers.
 
-**La liste des jobId se trouve dans [jobs.txt](https://docs.cookietouch.com/ids/jobs.txt).**
+**La liste des jobId se trouve dans [jobs.txt](https://docs.Celestis.com/ids/jobs.txt).**
 
 <hr>
 
@@ -81,7 +81,7 @@ Retourne un array de toutes les ressources d'un métier donné avec lesquelles l
 const paysanSkills = jobs.getCollectSkills(28); // Retourne [38, 39]: le bot peut faucher le Blé et le Houblon.
 ```
 
-La liste des ressources se trouve dans [resources.txt](https://docs.cookietouch.com/ids/resources.txt)
+La liste des ressources se trouve dans [resources.txt](https://docs.Celestis.com/ids/resources.txt)
 
 <hr>
 

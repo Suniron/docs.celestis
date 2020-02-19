@@ -1,4 +1,4 @@
-# CookieTouch API Documentation
+# Celestis API Documentation
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
@@ -37,11 +37,11 @@ La configuration, c'est des variables avec des noms bien précis qui vous permet
 
 Si vous ne déclarez pas une variable, elle aura une valeur par défaut. Vous n'êtes donc pas obligé de déclarer une variable si elle ne vous sert à rien.
 
-**Vous trouverez tous les id des monstres dans [monsters.txt](https://docs.cookietouch.com/ids/monsters.txt).**
+**Vous trouverez tous les id des monstres dans [monsters.txt](https://docs.Celestis.com/ids/monsters.txt).**
 
-**Vous trouverez tous les id des ressources récoltables dans [resources.txt](https://docs.cookietouch.com/ids/resources.txt).**
+**Vous trouverez tous les id des ressources récoltables dans [resources.txt](https://docs.Celestis.com/ids/resources.txt).**
 
-**Vous trouverez tous les id des items dans [items.txt](https://docs.cookietouch.com/ids/items.txt).**
+**Vous trouverez tous les id des items dans [items.txt](https://docs.Celestis.com/ids/items.txt).**
 
 _Remarque: ces variables doivent toutes etre définies dans l'object config, dans le cas contraire cela n'aurai aucune utilité._
 

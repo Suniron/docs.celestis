@@ -1,4 +1,4 @@
-# CookieTouch API Documentation
+# Celestis API Documentation
 
 [Summary](README.md) | [Single page summary](singlepage.md)
 
@@ -15,7 +15,7 @@
 
 Toutes les fonctions relatives à la récolte.
 
-**Les resourcesIds se trouvent dans [resources.txt](https://docs.cookietouch.com/ids/resources.txt).**
+**Les resourcesIds se trouvent dans [resources.txt](https://docs.Celestis.com/ids/resources.txt).**
 
 <hr>
 

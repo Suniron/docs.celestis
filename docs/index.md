@@ -1,3 +1,3 @@
-# CookieTouch Documentation
+# Celestis Documentation
 
 - [Français](fr/)

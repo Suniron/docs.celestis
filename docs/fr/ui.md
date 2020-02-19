@@ -1,4 +1,4 @@
-# CookieTouch API Documentation
+# Celestis API Documentation
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
@@ -29,4 +29,4 @@ NomDeCompte3:MotDePasse3:402:NomPersonnage
 NomDeCompte4:MotDePasse4
 ```
 
-**Tous les ID des serveurs peuvent être trouvés dans [servers.txt](https://docs.cookietouch.com/ids/servers.txt)**
+**Tous les ID des serveurs peuvent être trouvés dans [servers.txt](https://docs.Celestis.com/ids/servers.txt)**

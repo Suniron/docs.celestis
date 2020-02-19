@@ -1,4 +1,4 @@
-# CookieTouch API Documentation
+# Celestis API Documentation
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
@@ -29,7 +29,7 @@
 
 Toutes les fonctions relatives à l’inventaire du personnage.
 
-**Tous les GID sont disponibles dans le fichier [items.txt](https://docs.cookietouch.com/ids/items.txt).**
+**Tous les GID sont disponibles dans le fichier [items.txt](https://docs.Celestis.com/ids/items.txt).**
 
 ## inventory.objects()
 
