@@ -1,0 +1,39 @@
+---
+---
+
+@import "{{ site.theme }}";
+body {
+  color: #dcddde;
+  background-color: #36393f;
+}
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #2f3136;
+}
+.highlight .k,
+.highlight .kv {
+  color: #b58900;
+}
+.highlight .kd {
+  color: #859900;
+}
+.highlight .o {
+  color: #e74c3c;
+}
+.markdown-body table tr {
+  background-color: #2f3136;
+}
+a {
+  color: #0096cf;
+}
+
+.markdown-body hr {
+  background-color: #99aab5;
+}
+
+.markdown-body h1 {
+  border-color: #99aab5;
+}
+.highlight {
+  background-color: #f8f8f800;
+}
