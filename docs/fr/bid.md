@@ -163,15 +163,9 @@ Retire un item donné de la vente.
 **Exemple:**
 
 ```js
-<<<<<<< HEAD
 for (const itemInSale of bid.getItemsInSale()) {
   if (itemInSale.objectGID === 289) {
     yield * bid.removeItemInSale(itemInSale.d); // On retire tous les lots de blé de la vente.
-=======
-for (const itemInSale of api.bid.getItemsInSale()) {
-  if (itemInSale.gid === 289) {
-    yield * api.bid.removeItemInSale(itemInSale.d); // On retire tous les lots de blé de la vente.
->>>>>>> 6cc09bf1752a5982a777e03728167ec84c008583
   }
 }
 ```
