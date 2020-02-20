@@ -82,7 +82,7 @@ Pour les deux fonctions les paramètres sont tous facultatifs:
 _Dans cet exemple, nous initialisons tout se qui concerne les combats dans la config._
 
 ```js
-const config = {
+api.config = {
   MIN_MONSTERS: 1,
   MAX_MONSTERS: 8,
   MIN_MONSTERS_LEVEL: 1,
@@ -101,7 +101,7 @@ const config = {
 Verifie si un groupe de monstres de la map correspond aux paramètres passés à la fonction.
 
 ```js
-canFight([64], [68], 2, 6, 200, 600, 800, 1000); // Vérifie si, sur cette map, le bot peut combattre un groupe de 2 à 6 mobs avec un Wabbit au minimum et aucun Black Tiwabbit. Le groupe doit avoir un niveau supérieur ou égal à 200 et inférieur ou égal à 600 qui donne entre 800 et 1000 XP sans challenges.
+api.canFight([64], [68], 2, 6, 200, 600, 800, 1000); // Vérifie si, sur cette map, le bot peut combattre un groupe de 2 à 6 mobs avec un Wabbit au minimum et aucun Black Tiwabbit. Le groupe doit avoir un niveau supérieur ou égal à 200 et inférieur ou égal à 600 qui donne entre 800 et 1000 XP sans challenges.
 ```
 
 <hr>
@@ -110,7 +110,7 @@ canFight([64], [68], 2, 6, 200, 600, 800, 1000); // Vérifie si, sur cette map, 
 Lance un combat sur un groupe qui correspond aux paramètres passés à la fonction.
 
 ```js
-yield * fight([], [], 2, 6, 200, 600, 800, 1000); // Attaque si, sur cette map, un groupe vérifie les paramètres: un groupe de 2 à 6 mobs avec un Wabbit au minimum et aucun Black Tiwabbit. Le groupe doit avoir un niveau supérieur ou égal à 200 et inférieur ou égal à 600 qui donne entre 800 et 1000 XP sans challenges.
+yield * api.fight([], [], 2, 6, 200, 600, 800, 1000); // Attaque si, sur cette map, un groupe vérifie les paramètres: un groupe de 2 à 6 mobs avec un Wabbit au minimum et aucun Black Tiwabbit. Le groupe doit avoir un niveau supérieur ou égal à 200 et inférieur ou égal à 600 qui donne entre 800 et 1000 XP sans challenges.
 ```
 
 <hr>
@@ -119,5 +119,5 @@ yield * fight([], [], 2, 6, 200, 600, 800, 1000); // Attaque si, sur cette map, 
 Retourne le nombre de combats fait durant la session.
 
 ```js
-printMessage("J'ai fait " + fightsCount() + " combats :)"); // Affiche: J'ai fait 10 combats :) par exemple
+api.printMessage("J'ai fait " + api.fightsCount() + " combats :)"); // Affiche: J'ai fait 10 combats :) par exemple
 ```

@@ -5,7 +5,6 @@
 <hr>
 
 - [Introduction](introduction.md)
-- [Interface](ui.md)
 - [Data](data.md)
   - [averagePrice](data.md#averagePrice)
   - [item](data.md#item)

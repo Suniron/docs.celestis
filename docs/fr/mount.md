@@ -23,19 +23,19 @@ Toutes les fonctions relatives à la monture du personnage.
 
 <hr>
 
-## mount.isRiding()
+## api.mount.isRiding()
 
 Retourne true si le personnage est sur la monture, sinon retourne false.
 
 <hr>
 
-## mount.hasMount()
+## api.mount.hasMount()
 
 Retourne true si le personnage possède une monture, sinon retourne false.
 
 <hr>
 
-## mount.currentRatio()
+## api.mount.currentRatio()
 
 - Return type: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>
 
@@ -43,7 +43,7 @@ Retourne le pourcentage d'experience donnée à la monture.
 
 <hr>
 
-## mount.id()
+## api.mount.id()
 
 - Return type: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>
 
@@ -51,7 +51,7 @@ Retourne l'id de la monture.
 
 <hr>
 
-## mount.sex()
+## api.mount.sex()
 
 - Return type: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Boolean_type">boolean</a>
 
@@ -59,7 +59,7 @@ Retourne le sexe de la monture (true = femelle / false = male)
 
 <hr>
 
-## mount.currentLevel()
+## api.mount.currentLevel()
 
 - Return type: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>
 
@@ -68,7 +68,7 @@ Retourne le level de la monture.
 <hr>
 
 <h2 id="mount-toggle-riding">
-  mount.toggleRiding()
+  api.mount.toggleRiding()
 </h2>
 
 Permet de descendre ou de monter sur la monture.
@@ -77,8 +77,8 @@ Permet de descendre ou de monter sur la monture.
 
 ```js
 if (!mount.isRiding()) {
-  yield * mount.toggleRiding(); // Si le personnage n'est pas sur la monture, alors monter sur la monture.
-  yield * delay(2000);
+  yield * api.mount.toggleRiding(); // Si le personnage n'est pas sur la monture, alors monter sur la monture.
+  yield * api.delay(2000);
 }
 ```
 
@@ -88,7 +88,7 @@ Si vous devez obligatoirement être sûr d’être monté/descendu de la monture
 <hr>
 
 <h2 id="mount-set-ratio">
-  mount.setRatio(<code>ratio</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
+  api.mount.setRatio(<code>ratio</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
 </h2>
 
 Permet de modifier le pourcentage d'experience donnée à la monture.
@@ -96,13 +96,13 @@ Permet de modifier le pourcentage d'experience donnée à la monture.
 **Exemple:**
 
 ```js
-yield * mount.setRatio(90);
+yield * api.mount.setRatio(90);
 ```
 
 <hr>
 
 <h2 id="mount-set-name">
-  mount.setName(<code>name</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)
+  api.mount.setName(<code>name</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)
 </h2>
 
 Permet de modifier le nom de la monture.
@@ -110,7 +110,7 @@ Permet de modifier le nom de la monture.
 **Exemple:**
 
 ```js
-yield * mount.setName("Jacquie");
+yield * api.mount.setName("Jacquie");
 ```
 
 <hr>

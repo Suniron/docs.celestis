@@ -11,9 +11,9 @@
   - [item](#item)
   - [getStepRewards](#getsteprewards)
 
-# Data
+# api.data.
 
-Fonctions relatives aux data
+Fonctions relatives aux api.data.
 
 <hr>
 
@@ -24,7 +24,7 @@ Donne le prix moyen d'un item
 **Exemple:**
 
 ```js
-const prix = data.averagePrice(289); // Donne le prix moyen du blé
+const prix = api.data.averagePrice(289); // Donne le prix moyen du blé
 ```
 
 <hr>
@@ -36,7 +36,7 @@ Donne toutes les infos d'un item
 **Exemple:**
 
 ```js
-const ble = await data.item(289); // Donne toutes les infos du blé
+const ble = await api.data.item(289); // Donne toutes les infos du blé
 ```
 
 <hr>
@@ -48,7 +48,7 @@ Donne toutes les récomponses d'une étape de quête (xp, kamas, ids des objets)
 **Exemple:**
 
 ```js
-const rewards = await data.getStepRewards(2733);
+const rewards = await api.data.getStepRewards(2733);
 ```
 
 <hr>

@@ -80,7 +80,7 @@ Les variables ci-dessous permettent de créer des trajets avec les paramètres s
 _Dans cet exemple, nous utilisons une fonction custom qui nous permet d'utiliser une potion si nous sommes sur la map 88081177._
 
 ```js
-const move = [
+api.move = [
   { map: 88081177, path: "top" },
   { map: 88081177, path: "355" },
   { map: 88081177, path: "top(8)" },
@@ -102,12 +102,12 @@ Contient le trajet et la plupart des actions du bot.
 Il est important que le bot se trouve dans l'une des maps du chemin move pour commencer.
 
 ```js
-const move = [{ map: 67371008, custom: usePotion }];
+api.move = [{ map: 67371008, custom: usePotion }];
 
-async function* usePotion() {
-  if (currentMapId() === 67371008) {
+async function* api.usePotion() {
+  if (api.currentMapId() === 67371008) {
     yield* inventory.useItem(6965);
-    yield* delay(1000);
+    yield* api.delay(1000);
   }
 }
 ```
@@ -124,7 +124,7 @@ Le bot utilisera automatiquement ce chemin lorsqu'il aura dépassé le pourcenta
 Il est important que le bot se trouve dans l'une des maps du chemin bank pour commencer.
 
 ```js
-const bank = [
+api.bank = [
   { map: "11,9", path: "right" },
   { map: "12,9", path: "top" },
   { map: "12,8", path: "right" },
@@ -147,7 +147,7 @@ Contient le trajet vers le phenix.
 Il est important que le bot se trouve dans l'une des maps du chemin phenix pour commencer.
 
 ```js
-const phenix = [
+api.phenix = [
   { map: 67371008, phenix: 192 },
   { map: "13,19", path: "bottom" },
   { map: "13,20", path: "left" }

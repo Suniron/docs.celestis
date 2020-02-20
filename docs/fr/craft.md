@@ -22,7 +22,7 @@ Craft une quantité d'item
 ```js
 function* craftItem() {
   yield* use(400); // Utilise l'atelier avec l'action (cuir du pain dans ce cas(-1))
-  yield* craft.craft(468, 10); // Craft 10 pain d'amakna ( 468 = pain d'amakna )
+  yield* api.craft.craft(468, 10); // Craft 10 pain d'amakna ( 468 = pain d'amakna )
 }
 ```
 

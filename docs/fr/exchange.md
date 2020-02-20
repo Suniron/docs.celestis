@@ -24,7 +24,7 @@
 
 Toutes les fonctions relatives aux échanges.
 
-## exchange.weightP
+## api.echange.weightP
 
 - Return type: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>
 
@@ -34,7 +34,7 @@ Retourne les pods actuel du bot en pourcentage.
 
 ```js
 while (exchange.weightP() > 10) {
-  yield * exchange.putItem(289, 100); // Tant que vous avez plus de 10% de pods, ajoute 100 blé à l'échange.
+  yield * api.echange.putItem(289, 100); // Tant que vous avez plus de 10% de pods, ajoute 100 blé à l'échange.
 }
 ```
 
@@ -50,7 +50,7 @@ Retourne les pods actuel de la cible de l’échange en pourcentage.
 
 ```js
 while (exchange.targetWeightP() < 90) {
-  yield * exchange.putItem(289, 100); // Tant que la cible n'a pas plus de 90% de pods, ajoute 100 blé à l'échange.
+  yield * api.echange.putItem(289, 100); // Tant que la cible n'a pas plus de 90% de pods, ajoute 100 blé à l'échange.
 }
 ```
 
@@ -61,19 +61,19 @@ while (exchange.targetWeightP() < 90) {
 Commence l'échange avec un joueur donné.
 
 ```js
-yield * exchange.startExchange(7127912);
+yield * api.echange.startExchange(7127912);
 ```
 
 _Note: il est possible de récupérer le playerId à coté de votre nom dans l'onglet personnage._
 
 <hr>
 
-## exchange.sendReady()
+## api.echange.sendReady()
 
 Valide l'échange.
 
 ```js
-yield * exchange.sendReady();
+yield * api.echange.sendReady();
 ```
 
 <hr>
@@ -83,7 +83,7 @@ yield * exchange.sendReady();
 Insère un objet dans l’échange.
 
 ```js
-yield * exchange.putItem(289, 100); // quantity = 0 pour tout mettre.
+yield * api.echange.putItem(289, 100); // quantity = 0 pour tout mettre.
 ```
 
 <hr>
@@ -93,7 +93,7 @@ yield * exchange.putItem(289, 100); // quantity = 0 pour tout mettre.
 Récupère un objet dans l’échange.
 
 ```js
-yield * exchange.removeItem(289, 100); // Enlève 100 blé à l'échange.
+yield * api.echange.removeItem(289, 100); // Enlève 100 blé à l'échange.
 ```
 
 <hr>
@@ -103,7 +103,7 @@ yield * exchange.removeItem(289, 100); // Enlève 100 blé à l'échange.
 Insère une quantité donnée de kamas dans l’échange.
 
 ```js
-yield * exchange.putKamas(10000); // Ajoute 10 000 kamas à l'échange.
+yield * api.echange.putKamas(10000); // Ajoute 10 000 kamas à l'échange.
 ```
 
 <hr>
@@ -113,37 +113,37 @@ yield * exchange.putKamas(10000); // Ajoute 10 000 kamas à l'échange.
 Retire une quantité donnée de kamas dans l'échange.
 
 ```js
-yield * exchange.removeKamas(10000); // Retire 10 000 kamas à l'échange.
+yield * api.echange.removeKamas(10000); // Retire 10 000 kamas à l'échange.
 ```
 
 <hr>
 
-## exchange.putAllItems()
+## api.echange.putAllItems()
 
 Insère tous les objets de votre inventaire dans l’échange.
 
 ```js
-yield * exchange.putAllItems();
+yield * api.echange.putAllItems();
 ```
 
 <hr>
 
-## exchange.removeAllItems()
+## api.echange.removeAllItems()
 
 Retire tous les items de l'échange.
 
 ```js
-yield * exchange.removeAllItems();
+yield * api.echange.removeAllItems();
 ```
 
 <hr>
 
-## exchange.startShop()
+## api.echange.startShop()
 
 Démarre votre mode marchand
 
 ```js
-yield * exchange.startShop();
+yield * api.echange.startShop();
 ```
 
 <hr>
@@ -153,7 +153,7 @@ yield * exchange.startShop();
 Ajoute un item à votre mode marchand
 
 ```js
-yield * exchange.addItemShop(289, 10, 20); // Ajoute 10 blé à 20k/u à votre mode marchand
+yield * api.echange.addItemShop(289, 10, 20); // Ajoute 10 blé à 20k/u à votre mode marchand
 ```
 
 <hr>

@@ -5,7 +5,6 @@
 <hr>
 
 - [Introduction](introduction.md)
-- [Interface](ui.md)
 - [Data](data.md)
 - [HDV](bid.md)
 - [Chemins](paths.md)
@@ -24,6 +23,5 @@
 - [Quêtes](quests.md)
 - [Personnage](character.md)
 - [Stockage](storage.md)
-- [Themes](themes.md)
 
 <hr>

@@ -32,9 +32,9 @@ Retourne true si la map contient les ressources recherchées, sinon retourne fal
 **Exemple:**
 
 ```js
-canGather(1, 28); // True si il est possible de recolter du Frene et/ou de l'If sur cette map.
+api.canGather(1, 28); // True si il est possible de recolter du Frene et/ou de l'If sur cette map.
 // ou
-canGather(...[1, 28]);
+api.canGather(...[1, 28]);
 ```
 
 <hr>
@@ -48,11 +48,11 @@ Récolte les ressources passées en paramètre après avoir vérifié si il etai
 **Exemple:**
 
 ```js
-yield * gather(1, 28); // Récolte le Frene et/ou l'If si ils sont présents sur la map.
+yield * api.gather(1, 28); // Récolte le Frene et/ou l'If si ils sont présents sur la map.
 // ou
-yield * gather(...[1, 28]);
+yield * api.gather(...[1, 28]);
 // ou
-yield * gather(26, 46); // Récolte du Chanvre (46) en tant qu'Alchimiste (26)
+yield * api.gather(26, 46); // Récolte du Chanvre (46) en tant qu'Alchimiste (26)
 ```
 
 <hr>
@@ -61,5 +61,5 @@ yield * gather(26, 46); // Récolte du Chanvre (46) en tant qu'Alchimiste (26)
 Retourne le nombre de récoltes fait durant la session.
 
 ```js
-printMessage("J'ai fait " + gathersCount() + " récoltes :)"); // Affiche: J'ai fait 10 récoltes :) par exemple
+api.printMessage("J'ai fait " + api.gathersCount() + " récoltes :)"); // Affiche: J'ai fait 10 récoltes :) par exemple
 ```
