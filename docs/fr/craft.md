@@ -37,7 +37,7 @@ Un délais (en ms) à attendre entre chaque item doit renseigné mais il peut ê
 ```js
 function* craftItem() {
   yield* api.use(400); // Utilise l'atelier avec l'action (cuir du pain dans ce cas(-1))
-  yield* api.craft.speedcraft(468, 500, 10); // Craft 500 pains d'amakna au rythme d'un craft chaque 10ms ( 468 = pain d'amakna )
+  yield* api.craft.speedcraft(468, 500, 10); // Craft 500 pains d'amakna au rythme d'un craft chaque 10ms
 }
 ```
 
