@@ -134,6 +134,7 @@ api.config = {
 
 async function* potionRappel() {
   yield* api.inventory.useItem(548);
+  yield* api.waitMapChange();
 }
 
 api.move = [
