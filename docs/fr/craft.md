@@ -30,7 +30,7 @@ function* craftItem() {
 
 Craft une quantité d'item instantanément.
 
-Un délais (en ms) à attendre entre chaque item doit renseigné mais il peut être de 0 (dans tous les cas une pause de 1s est effectuée toutes les 200ms)
+Un délais (en ms) à attendre entre chaque item doit renseigné mais il peut être de 0 (dans tous les cas une pause de 1s est effectuée tous les 200 crafts).
 
 **Exemple:**
 
