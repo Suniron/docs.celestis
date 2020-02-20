@@ -110,7 +110,7 @@ for (const itemInSale of bid.getItemsInSale()) {
 for (const itemInSale of api.bid.getItemsInSale()) {
   const gid = itemInSale.gid;
 >>>>>>> 6cc09bf1752a5982a777e03728167ec84c008583
-  const uid = itemInSale.uid;
+  const uid = itemInSale.d;
   const lot = itemInSale.lot;
   const price = itemInSale.price;
 }
@@ -145,7 +145,7 @@ for (const itemInSale of api.bid.getItemsInSale()) {
     itemInSale.price <= 1000 &&
     itemInSale.lot <= 100
   ) {
-    yield * api.bid.editItemInSalePrice(itemInSale.uid, 1200); // On augmente le prix des lots de 100 blé.
+    yield * api.bid.editItemInSalePrice(itemInSale.d, 1200); // On augmente le prix des lots de 100 blé.
   }
 }
 ```
@@ -166,11 +166,11 @@ Retire un item donné de la vente.
 <<<<<<< HEAD
 for (const itemInSale of bid.getItemsInSale()) {
   if (itemInSale.objectGID === 289) {
-    yield * bid.removeItemInSale(itemInSale.uid); // On retire tous les lots de blé de la vente.
+    yield * bid.removeItemInSale(itemInSale.d); // On retire tous les lots de blé de la vente.
 =======
 for (const itemInSale of api.bid.getItemsInSale()) {
   if (itemInSale.gid === 289) {
-    yield * api.bid.removeItemInSale(itemInSale.uid); // On retire tous les lots de blé de la vente.
+    yield * api.bid.removeItemInSale(itemInSale.d); // On retire tous les lots de blé de la vente.
 >>>>>>> 6cc09bf1752a5982a777e03728167ec84c008583
   }
 }
