@@ -18,7 +18,7 @@ Voici la structure d'un script:
 Cette partie est placée, généralement, en entếte et donne la configuration de votre script.
 
 ```js
-const config = {
+api.config = {
   MAX_PODS: 90,
   OPEN_BAGS: false,
   AUTO_DELETE: [],
@@ -40,7 +40,7 @@ Les variables sont définies par le mot `const` ou `let`. Les variables comme la
 votre script. Cependant, pour autoriser la modification, vous devez les appeller `let`.
 
 ```js
-const config = {}; // Non modifiable
+api.config = {}; // Non modifiable
 let config = {}; // Modifiable plus loin dans le script
 ```
 
@@ -54,7 +54,7 @@ Les fonctions sont utilisées pour combiner des actions dans une même sequence.
 
 ```js
 async function* potionRappel() {
-  yield* inventory.use(548);
+  yield* api.inventory.useItem(548);
 }
 ```
 
@@ -66,7 +66,7 @@ Le corps se compose, pour les cas simples, de votre move et de votre bank. Ces d
 lui dire de combattre, de récolter ou d'effectuer une fonction (comme l'exemple précédent).
 
 ```js
-const move = [
+api.move = [
   { map: "-5,6", gather: true, fight: true, custom: potionRappel, path: "top" },
   { map: "-6,6", gather: true, path: "top" },
   { map: 88081177, path: "510" } // Sert a ressortir de la banque lorsque vide.
@@ -77,7 +77,7 @@ Dans cet exemple, une fois sur la map -5,6 votre bot effectuera sa fonction "pot
 combattra les monstres provenant de la config. Par la suite, il changera de map vers celle du haut ! Il enchainera ensuite l'autre et ainsi de suite.
 
 ```js
-const bank = [
+api.bank = [
   { map: "-5,6", path: "top" },
   { map: "-6,6", path: "right" },
   { map: 60422201, door: 201 }, //Porte pour entrer la banque
@@ -91,7 +91,7 @@ Les possibilités de déplacements dans le move et le bank sont : door, path.
 Lors d'un changement de map, vous utilisez un path. Le path necessite toujours des guillemets et la direction.
 
 ```js
-const move = [
+api.move = [
   { map: "0,1", path: "top" },
   { map: "0,0", path: "right" },
   { map: "1,0", path: "bottom" },
@@ -102,19 +102,19 @@ const move = [
 Le path sert aussi pour à utiliser un soleil. (pour sortir d'une banque par exemple)
 
 ```js
-const move = [{ map: "1,1", path: "506" }];
+api.move = [{ map: "1,1", path: "506" }];
 ```
 
 Il sert aussi a sortir d'une map via un céllule précise.
 
 ```js
-const move = [{ map: "1,1", path: "bottom(507)" }];
+api.move = [{ map: "1,1", path: "bottom(507)" }];
 ```
 
 Lorsque vous utilisez une porte pour entrer dans la banque par exemple, vous mettez door: ID. Vous ne devez pas mettre de guillemets !
 
 ```js
-const move = [{ map: "1,1", door: 510 }];
+api.move = [{ map: "1,1", door: 510 }];
 ```
 
 Pour finir, il suffit de sauvegarder tout ce script dans un fichier avec l'extension .js
@@ -122,7 +122,7 @@ Pour finir, il suffit de sauvegarder tout ce script dans un fichier avec l'exten
 Exemple du script complet :
 
 ```js
-const config = {
+api.config = {
   MAX_PODS: 90,
   OPEN_BAGS: false,
   AUTO_DELETE: [],
@@ -133,16 +133,16 @@ const config = {
 };
 
 async function* potionRappel() {
-  yield* inventory.use(548);
+  yield* api.inventory.useItem(548);
 }
 
-const move = [
+api.move = [
   { map: "-5,6", gather: true, fight: true, custom: potionRappel, path: "top" },
   { map: "-6,6", gather: true, path: "top" },
   { map: 88081177, path: "510" } // Sert a ressortir de la banque lorsque vide.
 ];
 
-const bank = [
+api.bank = [
   { map: "-5,6", path: "top" },
   { map: "-6,6", path: "right" },
   { map: 60422201, door: 201 }, // Porte pour entrer la banque

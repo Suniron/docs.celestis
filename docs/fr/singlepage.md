@@ -5,7 +5,6 @@
 <hr>
 
 - [Introduction](introduction.md)
-- [Interface](ui.md)
 - [Data](data.md)
   - [averagePrice](data.md#averagePrice)
   - [item](data.md#item)
@@ -182,3 +181,6 @@
   - [getAllItems](storage.md#storagegetallItems)
   - [putExistingItems](storage.md#storageputexistingitems)
   - [getExistingItems](storage.md#storagegetexistingitems)
+<!---
+- [Interface](ui.md)
+--->

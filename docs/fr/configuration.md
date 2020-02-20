@@ -56,7 +56,7 @@ Cette variable permet de configurer le pourcentage de pods au-delà duquel votre
 **Exemple:**
 
 ```js
-const config = { MAX_PODS: 100 }; // Retour en banque à 100% de pods
+api.config = { MAX_PODS: 100 }; // Retour en banque à 100% de pods
 ```
 
 _Valeur par défaut: Retour en banque à 90% de pods._
@@ -72,7 +72,7 @@ Cette variable permet de configurer le nombre de monstres minimum à attaquer (l
 **Exemple:**
 
 ```js
-const config = { MIN_MONSTERS: 2 }; // Combattre les groupes de 2 monstres minimum
+api.config = { MIN_MONSTERS: 2 }; // Combattre les groupes de 2 monstres minimum
 ```
 
 _Valeur par défaut: 1._
@@ -88,7 +88,7 @@ Cette variable permet de configurer le nombre de monstres maximum à attaquer (l
 **Exemple:**
 
 ```js
-const config = { MAX_MONSTERS: 5 }; // Combattre les groupes de 5 monstres maximum
+api.config = { MAX_MONSTERS: 5 }; // Combattre les groupes de 5 monstres maximum
 ```
 
 _Valeur par défaut: 8._
@@ -104,7 +104,7 @@ Cette variable permet de configurer le niveau minimum d'un groupe de monstres à
 **Exemple:**
 
 ```js
-const config = { MIN_MONSTERS_LEVEL: 200 }; // Combattre les groupes de niveau 200 minimum
+api.config = { MIN_MONSTERS_LEVEL: 200 }; // Combattre les groupes de niveau 200 minimum
 ```
 
 _Valeur par défaut: niveau 1._
@@ -120,7 +120,7 @@ Cette variable permet de configurer le niveau maximum d'un groupe de monstres à
 **Exemple:**
 
 ```js
-const config = { MAX_MONSTERS_LEVEL: 500 }; // Combattre les groupes de niveau 500 maximum
+api.config = { MAX_MONSTERS_LEVEL: 500 }; // Combattre les groupes de niveau 500 maximum
 ```
 
 _Valeur par défaut: niveau 1000._
@@ -136,7 +136,7 @@ Cette variable permet de configurer le nombre minimum d'xp voulu d'un groupe de 
 **Exemple:**
 
 ```js
-const config = { MIN_XP_PER_FIGHT: 500 }; // Combattre les groupes qui donnent minimum 500 XP (sans challenges)
+api.config = { MIN_XP_PER_FIGHT: 500 }; // Combattre les groupes qui donnent minimum 500 XP (sans challenges)
 ```
 
 _Valeur par défaut: 0._
@@ -152,7 +152,7 @@ Cette variable permet de configurer le nombre maxium d'xp voulu d'un groupe de m
 **Exemple:**
 
 ```js
-const config = { MAX_XP_PER_FIGHT: 90888 }; // Combattre les groupes qui donnent maximum 90888 XP (sans challenges)
+api.config = { MAX_XP_PER_FIGHT: 90888 }; // Combattre les groupes qui donnent maximum 90888 XP (sans challenges)
 ```
 
 _Valeur par défaut: Infinity._
@@ -168,7 +168,7 @@ Cette variable permet de configurer les monstres interdits (lorsque vous utilise
 **Exemple:**
 
 ```js
-const config = { FORBIDDEN_MONSTERS: [148, 134] }; // Ne pas attaquer les Chef de Guerre Bouftou ou les Boufton Blanc
+api.config = { FORBIDDEN_MONSTERS: [148, 134] }; // Ne pas attaquer les Chef de Guerre Bouftou ou les Boufton Blanc
 ```
 
 _Valeur par défaut: pas de monstre interdit._
@@ -184,7 +184,7 @@ Cette variable permet de configurer les monstres obligatoires (lorsque vous util
 **Exemple:**
 
 ```js
-const config = { MANDATORY_MONSTERS: [149] }; // Attaque uniquement s'il y a un Boufton Noir dans le groupe
+api.config = { MANDATORY_MONSTERS: [149] }; // Attaque uniquement s'il y a un Boufton Noir dans le groupe
 ```
 
 _Valeur par défaut: pas de monstre obligatoire._
@@ -200,7 +200,7 @@ Ce paramètre permet de configurer le nombre de combats maximum par map (lorsque
 **Exemple:**
 
 ```js
-const config = { MAX_FIGHTS_PER_MAP: 10 }; // Le bot continuera le script après 10 combats sur la map
+api.config = { MAX_FIGHTS_PER_MAP: 10 }; // Le bot continuera le script après 10 combats sur la map
 ```
 
 _Valeur par défaut: pas de limite au nombre de combat sur la map._
@@ -216,7 +216,7 @@ Cette variable permet de configurer les éléments à récolter (lorsque vous ut
 **Exemple:**
 
 ```js
-const config = { ELEMENTS_TO_GATHER: [38, 43] }; // Récolte uniquement le Blé et l'Orge
+api.config = { ELEMENTS_TO_GATHER: [38, 43] }; // Récolte uniquement le Blé et l'Orge
 ```
 
 _Valeur par défaut: récolte tous les éléments._
@@ -232,7 +232,7 @@ Cette variable permet de configurer les éléments à déposer en banque (lorsqu
 **Exemple:**
 
 ```js
-const config = {
+api.config = {
   BANK_PUT_ITEMS: [
     { id: 289, quantity: 0 }, // Dépose tout le blé en banque
     { id: 6965, quantity: 5 } // Dépose 5 Potion de cité : Bonta en banque
@@ -255,7 +255,7 @@ Cette variable permet de configurer les éléments à récupérer en banque (lor
 **Exemple:**
 
 ```js
-const config = {
+api.config = {
   BANK_GET_ITEMS: [
     { id: 6964, quantity: 5 } // Récupère 5 Potion de cité : Brâkmar
   ]
@@ -277,7 +277,7 @@ Cette variable permet de configurer les kamas à déposer en banque (lorsque vou
 **Exemple:**
 
 ```js
-const config = { BANK_PUT_KAMAS: 2000 }; // Dépose 2 000 kamas en banque
+api.config = { BANK_PUT_KAMAS: 2000 }; // Dépose 2 000 kamas en banque
 ```
 
 _Valeur par défaut: ne dépose pas de kamas._
@@ -295,7 +295,7 @@ Cette variable permet de configurer les kamas à récupérer en banque (lorsque 
 **Exemple:**
 
 ```js
-const config = { BANK_GET_KAMAS: 2000 }; // Récupère 2 000 kamas en banque
+api.config = { BANK_GET_KAMAS: 2000 }; // Récupère 2 000 kamas en banque
 ```
 
 _Valeur par défaut: ne récupère pas de kamas._
@@ -313,7 +313,7 @@ Cette variable permet de configurer la régénération automatique par items (lo
 **Exemple:**
 
 ```js
-const config = {
+api.config = {
   AUTO_REGEN: {
     minLife: 60, // Regeneration si en-dessous de 60%
     maxLife: 90, // Regeneration jusqu'a 90%
@@ -341,7 +341,7 @@ Cette variable permet de configurer la suppression automatique lorsque le person
 **Exemple:**
 
 ```js
-const config = {
+api.config = {
   AUTO_DELETE: [598, 1799] // Supprime automatiquement les Greu-Vette et les Kralamoure Unique
 };
 ```
@@ -363,7 +363,7 @@ Cette variable permet de configurer l'ouverture automatique des sacs de récolte
 **Exemple:**
 
 ```js
-const config = { OPEN_BAGS: true };
+api.config = { OPEN_BAGS: true };
 ```
 
 _Valeur par défaut: false, pas d'ouverture automatique des sacs._
@@ -379,7 +379,7 @@ Cette variable permet de configurer l'affichage du compteur de récoltes.
 **Exemple:**
 
 ```js
-const config = { DISPLAY_GATHER_COUNT: true }; // Affiche le compteur de récoltes
+api.config = { DISPLAY_GATHER_COUNT: true }; // Affiche le compteur de récoltes
 ```
 
 _Valeur par défaut: pas d'affichage du compteur de récoltes._
@@ -395,7 +395,7 @@ Cette variable permet de configurer l'affichage du compteur de combats.
 **Exemple:**
 
 ```js
-const config = { DISPLAY_FIGHT_COUNT: true }; // Affiche le compteur de combats
+api.config = { DISPLAY_FIGHT_COUNT: true }; // Affiche le compteur de combats
 ```
 
 _Valeur par défaut: pas d'affichage du compteur de combats._
@@ -407,7 +407,7 @@ _Valeur par défaut: pas d'affichage du compteur de combats._
 **Exemple:**
 
 ```js
-const config = {
+api.config = {
   MAX_PODS: 90, // Retour en banque à 90% pods
   MIN_MONSTERS: 2, // 2 monstres minimum
   MAX_MONSTERS: 3, // 3 monstres maximum
@@ -425,5 +425,5 @@ Nous pouvons avoir accès à tout moment à ces variables. Donc on peut aussi le
 
 ```js
 config.MAX_MONSTERS = 3;
-printMessage(config.MAX_MONSTERS); // Affiche 3
+api.printMessage(config.MAX_MONSTERS); // Affiche 3
 ```
