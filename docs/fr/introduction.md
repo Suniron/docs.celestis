@@ -36,12 +36,11 @@ Bien entendu il y a bien d'autres options: [Configuration](configuration.md)
 
 <h2 id="variables">Variables</h2>
 
-Les variables sont définies par le mot `const` ou `let`. Les variables comme la config, le move ou le bank sont modifiables tout au long de
-votre script. Cependant, pour autoriser la modification, vous devez les appeller `let`.
+Les variables sont définies par le mot `const` ou `let`. Les variables sont modifiables tout au long de
+votre script. Cependant, pour autoriser la modification, vous devez les appeler `let`.
 
 ```js
-api.config = {}; // Non modifiable
-let config = {}; // Modifiable plus loin dans le script
+let maVariable = "Un texte"; // Modifiable plus loin dans le script
 ```
 
 Ce principe s'applique à toutes les variables utilisées dans un script.
@@ -50,7 +49,7 @@ Ce principe s'applique à toutes les variables utilisées dans un script.
 
 <h2 id="fonctions">Fonctions</h2>
 
-Les fonctions sont utilisées pour combiner des actions dans une même sequence. Elle doit toujours être precedée de `async function*`.
+Les fonctions sont utilisées pour combiner des actions dans une même sequence. Une fonction doit toujours être precedée de `async function*`.
 
 ```js
 async function* potionRappel() {
