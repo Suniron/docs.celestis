@@ -181,6 +181,3 @@
   - [getAllItems](storage.md#storagegetallItems)
   - [putExistingItems](storage.md#storageputexistingitems)
   - [getExistingItems](storage.md#storagegetexistingitems)
-<!---
-- [Interface](ui.md)
---->

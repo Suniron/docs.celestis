@@ -54,6 +54,7 @@ Les fonctions sont utilisées pour combiner des actions dans une même sequence.
 ```js
 async function* potionRappel() {
   yield* api.inventory.useItem(548);
+  yield* api.waitMapChange();
 }
 ```
 

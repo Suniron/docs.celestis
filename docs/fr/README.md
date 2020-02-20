@@ -23,10 +23,5 @@
 - [Quêtes](quests.md)
 - [Personnage](character.md)
 - [Stockage](storage.md)
-<!---
-- [Interface](ui.md)
-- [Themes](themes.md)
---->
-
 
 <hr>
