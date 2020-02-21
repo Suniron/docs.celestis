@@ -104,8 +104,8 @@ Retourne une liste de lots d'objets en vente et le prix du lot.
 
 ```js
 for (const itemInSale of api.bid.getItemsInSale()) {
-  const gid = itemInSale.gid;
-  const uid = itemInSale.uid;
+  const gid = itemInSale.objectGID;
+  const uid = itemInSale.objectUID;
   const lot = itemInSale.lot;
   const price = itemInSale.price;
 }
@@ -136,11 +136,11 @@ Permet d'éditer le prix d'un item donné en vente.
 ```js
 for (const itemInSale of api.bid.getItemsInSale()) {
   if (
-    itemInSale.gid === 289 &&
+    itemInSale.objectGID === 289 &&
     itemInSale.price <= 1000 &&
     itemInSale.lot <= 100
   ) {
-    yield * api.bid.editItemInSalePrice(itemInSale.uid, 1200); // On augmente le prix des lots de 100 blé.
+    yield * api.bid.editItemInSalePrice(itemInSale.objectUID, 1200); // On augmente le prix des lots de 100 blé.
   }
 }
 ```
@@ -158,9 +158,9 @@ Retire un item donné de la vente.
 **Exemple:**
 
 ```js
-for (const itemInSale of api.bid.getItemsInSale()) {
-  if (itemInSale.gid === 289) {
-    yield * api.bid.removeItemInSale(itemInSale.uid); // On retire tous les lots de blé de la vente.
+for (const itemInSale of bid.getItemsInSale()) {
+  if (itemInSale.objectGID === 289) {
+    yield * bid.removeItemInSale(itemInSale.objectUID); // On retire tous les lots de blé de la vente.
   }
 }
 ```
