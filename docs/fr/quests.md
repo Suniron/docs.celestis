@@ -56,7 +56,7 @@ const isCompleted = api.quests.isCompleted(3); // Return true si la quête "La d
 Retourne l'id de l'étape actuelle de la quête
 
 ```js
-const currentStep = await api.quests.currentStep(3);
+const currentStep = api.quests.currentStep(3);
 ```
 
 <hr>
@@ -70,7 +70,7 @@ const currentStep = await api.quests.currentStep(3);
 Retourne un tableau avec tous les ids d'objectifs a réaliser pour cette quête
 
 ```js
-const objectivesNeeded = await api.quests.objectivesNeeded(3);
+const objectivesNeeded = api.quests.objectivesNeeded(3);
 ```
 
 <hr>
@@ -84,7 +84,7 @@ const objectivesNeeded = await api.quests.objectivesNeeded(3);
 Retourne true si on a besoin de cet objectif sinon false
 
 ```js
-const needObjective = await api.quests.needObjective(3, 100);
+const needObjective = api.quests.needObjective(3, 100);
 ```
 
 <hr>
