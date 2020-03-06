@@ -163,7 +163,6 @@
 289 - Blé
 290 - Champignon
 291 - Poils du Mulou
-292 - Testicules du Mulou
 293 - Petite Pelle du Craqueleur
 294 - Pelle du Craqueleur
 295 - Grande Pelle du Craqueleur
@@ -243,7 +242,7 @@
 376 - Aile du Tofu Maléfique
 377 - Épine du Champ Champ
 378 - Sporme du Champ Champ
-379 - Pince du Crabe
+379 - Pince de Crabe
 380 - Feuille de Menthe Sauvage
 381 - Fraise
 382 - Ongle de Chevaucheur de Karne
@@ -292,16 +291,15 @@
 428 - Fleur de Chanvre
 429 - Pointe de Flèche du Bwork Archer
 430 - Os Invisible du Chafer Invisible
-431 - Pierre du Craqueleur
+431 - Pierre du Craquebille
 432 - Côtes du Rib
 433 - Fémur du Chafer Archer
 434 - Écorce d'Abraknyde
 435 - Racine d'Abraknyde
 436 - Bâton en Racine d'Abraknyde
 437 - Bourgeon d'Abraknyde
-438 - Queue du Mulou
 439 - Canine du Mulou
-440 - Griffe du Mulou
+440 - Griffe du Milimulou
 441 - Cuivre
 442 - Bronze
 443 - Kobalte
@@ -417,7 +415,6 @@
 648 - Poils de Wabbit
 649 - Poils de Wo Wabbit
 650 - Poils de Grand Pa Wabbit
-651 - Étoffe du Mulou
 652 - Étoffe du Sanglier
 653 - Étoffe du Prespic
 654 - Étoffe du Wabbit
@@ -461,11 +458,11 @@
 715 - Parchemin de Sculpteur d'arcs
 716 - Parchemin de Sculpteur de bâtons
 717 - Parchemin de Sculpteur de baguettes
-718 - Parchemin de Sort Flamiche
-719 - Parchemin de Sort Libération
-720 - Parchemin de Sort Foudroiement
-721 - Parchemin de Sort Invocation d'Arakne
-731 - Parchemin de Sort Spécial Brokle
+718 - Sort: Flamiche
+719 - Sort: Libération
+720 - Sort: Foudroiement
+721 - Sort: Invocation d'Arakne
+731 - Sort Spécial: Brokle
 732 - Alliance de Silimelle
 733 - Bottes de Ragalde
 734 - Ceinture de Sécurité
@@ -1331,13 +1328,12 @@
 1687 - Teinture Magique Verdâtre
 1688 - Teinture Magique Bleutée
 1689 - Teinture Magique Orange
-1690 - Poils du Milimulou
+1690 - Poils du Milimilou
 1691 - Poils du Meulou
 1692 - Teinture Magique Sombre
 1693 - Cape de Jules Yanos
-1694 - Laine du Trool Furieux
+1694 - Laine rêche
 1695 - Cape d'Elya Wood
-1696 - Étoffe du Meulou
 1697 - Petit Sac en Laine de Boufton
 1698 - Sac du Petit Récolteur
 1699 - Sac du Petit Aventurier
@@ -1606,7 +1602,7 @@
 1982 - Souplesse
 1983 - Graisse de Gelée
 1984 - Graisse de Biblop
-1985 - Résine d'Abraknyde
+1985 - Résine végétale
 1986 - Poudre Temporelle
 1987 - Viande d'Oiseau Conservée
 1988 - Viande d'Oiseau Conservée **
@@ -1631,7 +1627,7 @@
 2008 - Museau Conservé
 2009 - Museau Conservé **
 2010 - Museau Conservé ***
-2012 - Sang de Scorbute
+2012 - Sang infecté
 2013 - Nuggets ****
 2014 - Dragoviande Conservée
 2015 - Dragoviande Conservée **
@@ -1675,8 +1671,6 @@
 2054 - Badge de milicien Tek Apout
 2055 - Badge de milicien Bill Iédebar
 2056 - Oeil de Corbac
-2058 - Coeur de Brandon
-2059 - Corbac Mort
 2060 - Patte de Corbac
 2061 - Cape du Corbac
 2062 - Camouflage
@@ -1768,6 +1762,7 @@
 2154 - Bague De Sendar
 2155 - Amulette de Jiva
 2156 - Epée de Justice
+2157 - Clint
 2158 - Lettre d'Oto Mustam pour Sbab
 2159 - Parchemin de Courage
 2160 - Parchemin Décourageant
@@ -1858,7 +1853,6 @@
 2263 - Bâton renifleur de Sang
 2264 - Peau de Gobelin
 2265 - Description d'un Bontarien
-2266 - Lait de Cochon de Lait
 2267 - Dragolait
 2268 - Scalp de Bwork Archer
 2269 - Oeil de Larve bleue
@@ -1895,7 +1889,7 @@
 2303 - Carapace vide de Crabe
 2304 - Fragment de Pierre Polie
 2305 - Fragment de Pierre Pointue
-2306 - Coeur de Craqueleur
+2306 - Coeur de Minéroc
 2307 - Bouclier de Chafer Lancier
 2308 - Badge Brâkmarien
 2309 - Bougie Rouge
@@ -1910,7 +1904,7 @@
 2321 - Babines d'Ouginak
 2322 - Crocs de Rats
 2323 - Colonne Vertébrale
-2324 - Pastèque
+2324 - Pastèque de voyage
 2325 - Banane
 2326 - Orange
 2328 - Petite Perle Dorée
@@ -2043,14 +2037,8 @@
 2476 - Bottes de l'Aventurier
 2477 - Ceinture de l'aventurier
 2478 - Amulette de l'Aventurier
-2479 - Crête de Porkass
-2480 - Slip en cuir de Porkass
-2481 - Groin de Porkass
-2482 - Soulier de Porkass
-2483 - Dentier de Porkass
 2484 - Trident Cassé
 2485 - Végacoiffe
-2486 - Oreille de Porkass
 2487 - Carapace de Scorbute
 2488 - Viscères de Scorbute
 2489 - Vegacape
@@ -2070,17 +2058,7 @@
 2503 - Étoffe de Croc Gland
 2504 - Langue de Croc Gland
 2505 - Croquette
-2506 - Grelot
-2507 - Langue Fourchue
-2508 - Venin de Serpentin
-2509 - Dent de Serpentin
-2510 - Estomac de Sanglier des Plaines
-2511 - Cuir de Sanglier des Plaines
-2512 - Queue de Sanglier des Plaines
-2513 - Étoffe de Sanglier des Plaines
-2514 - Sabot de Sanglier des Plaines
-2515 - Groin de Sanglier des Plaines
-2516 - Défense de Sanglier des Plaines
+2515 - Groin Porcin
 2517 - Mégacape
 2518 - Cape Vioutifoule
 2519 - Mégacoiffe
@@ -2089,10 +2067,8 @@
 2522 - Bottes Vioutifoule
 2523 - Mégature
 2524 - Ceinture Vioutifoule
-2525 - Coeur du Maitre Corbac
 2526 - Faux du Maitre Corbac
 2527 - Clakoss
-2528 - Ongle de Kanigrou
 2529 - Potion de métal liquide
 2530 - Carabottes
 2531 - Caracoiffe
@@ -2110,20 +2086,11 @@
 2545 - Corbottes
 2546 - Corbacoiffe
 2547 - Corbacape Mastralis
-2549 - Boîte de Kanigrou
-2550 - Étoffe de Kanigrou
 2551 - Oreille de Kanigrou
-2552 - Oeil de Kanigrou
 2553 - Gros Boulet
-2554 - Côtes de Porkass
-2555 - Selle en Cuir
 2556 - Pollen de Blop
 2557 - Pétale de Blop
-2558 - Blop Mort
-2559 - Crinière de Trool
-2560 - Epaulette de Trool
 2561 - Bracelet de Force de Trool
-2562 - Slip de Trool
 2563 - Cale en bois du Tronknyde
 2564 - Sourcils de Tronknyde
 2565 - Tranche de Tronknyde
@@ -2136,14 +2103,7 @@
 2572 - Estomac de Prespic
 2573 - Queue de Prespic
 2574 - Crinière de Prespic
-2575 - Scalp de Mulou
-2576 - Scalp de Milimulou
-2577 - Scalp de Meulou
-2578 - Oeil de Mulou
-2579 - Oeil du Milimulou
-2580 - Oeil de Meulou
 2581 - Dents de Meulou
-2582 - Testicules de Meulou
 2583 - Oeil de Crabe
 2584 - Main de Boo
 2585 - Coeur de Boue du Boo
@@ -2207,8 +2167,6 @@
 2643 - Défense de Dragon Cochon
 2644 - Queue de Dragon Cochon
 2645 - Groin de Dragon Cochon
-2646 - Slip en cuir de Cochon de Lait
-2647 - Oreille de Cochon de Lait
 2648 - Griffes de Kwak
 2649 - Ver de Terre
 2650 - Ver d'Eau
@@ -2334,8 +2292,6 @@
 2802 - Epée de Balelen
 2803 - Ceinture du Kwabe
 2804 - Ceinture Mulante
-2805 - Testicules Magiques du Mulou
-2806 - Testicules Magiques du Meulou
 2807 - Ceinture Meulante
 2808 - Ceinture Dracochoune
 2809 - Ceinture Chafeuse
@@ -5989,7 +5945,7 @@
 6661 - Canne à Koinkoin
 6662 - Chapeau de la Mariée
 6663 - Bouquet de Roses démoniaques
-6664 - Parchemin de Sort Spécial Félintion
+6664 - Sort Spécial Félintion
 6666 - Sucette Tofu
 6667 - Sucette Trool
 6668 - Hot Dog de Tofu
@@ -6151,7 +6107,7 @@
 6873 - Qil Bil
 6874 - Brumen Tinctorias
 6875 - Fouduglen
-6876 - Ogivol Scarlarcin
+6876 - Ogivol Scalarcin
 6884 - Clef du Donjon du Bworker
 6885 - Jeton du Bworker
 6886 - Cape des Mercenaires d'Astrub
@@ -6228,7 +6184,7 @@
 6963 - Boules du Minotoboule
 6964 - Potion de cité :  Brâkmar
 6965 - Potion de cité :  Bonta
-6966 - Parchemin de Sort Spécial Poisse
+6966 - Sort Spécial Poisse
 6978 - Péki
 6980 - Dofus Vulbis
 6981 - Dagues Lassay
@@ -6277,7 +6233,6 @@
 7027 - Topaze
 7028 - Agathe
 7029 - Ceinture de Sangroku
-7030 - Peau de Kanigrou
 7031 - Pendule du Gudule
 7032 - Silicate
 7033 - Dolomite
@@ -6295,6 +6250,7 @@
 7045 - Une fiole de Pandaburg
 7046 - Une fiole de Pandapiler
 7047 - Une fiole de Pandapils
+7050 - Une fiole de Panduvel
 7055 - Une fiole de Pandneken
 7056 - Krépite
 7057 - Assistant du shaman
@@ -6585,7 +6541,7 @@
 7365 - Les Larmes de la déesse (part. 2) - Fragments retrouvés VIII
 7366 - Dieux & Démons
 7368 - Baguette Houalle
-7369 - Ambre de Bambouto
+7369 - Ambre de Plantalas
 7370 - Ambre de Bambouto Sacré
 7371 - Le Temps des Dofus -  Fragments retrouvés IV
 7372 - L'Horloge Divine de Xélor - Fragments retrouvés VI
@@ -6818,9 +6774,9 @@
 7628 - Caresseur Classique
 7629 - Baffeur en If
 7634 - Dragofesse Classique
-7635 - Dragofesse en Cuir de Boufton Blanc
-7636 - Dragofesse en Cuir de Boufton Noir
-7637 - Dragofesse en Cuir de Bouftou
+7635 - Dragofesse en Cuir violet de Mégabwork
+7636 - Dragofesse en Cuir de Gliglitch
+7637 - Dragofesse en Résine
 7650 - Marteau du Bricoleur
 7651 - Corne de Brume
 7652 - Potion de Souvenir
@@ -6869,13 +6825,13 @@
 7696 - Dragofesse en Cuir Violet de Bwork
 7697 - Dragofesse en Cuir de Porkass
 7698 - Dragofesse en Cuir Noir
-7699 - Dragofesse en Cuir de Sanglier des Plaines
+7699 - Dragofesse en Résine durcie
 7700 - Dragofesse en Cuir de Minotoror
 7703 - Vilain Petit Corbac
 7704 - Ecureuil Chenapan
 7705 - Léopardo
 7706 - Bilby
-7707 - Marcassin
+7707 - Marcassin de combat
 7708 - Pioute bleu
 7709 - Pioute jaune
 7710 - Pioute rose
@@ -6898,14 +6854,14 @@
 7734 - Caresseur en Plume de Piou Rouge
 7735 - Caresseur en Plume de Piou Jaune
 7736 - Caresseur en Plume de Piou Rose
-7737 - Caresseur en Plume de Tofu Maléfique
+7737 - Caresseur en Ailes de Tofu Maléfique
 7738 - Caresseur en Plume de Corbac
 7739 - Caresseur en Plume de Kwak de Glace
 7740 - Caresseur en Plume de Kwak de Flamme
 7741 - Caresseur en Plume de Kwak de Vent
 7742 - Caresseur en Plume de Kwak de Terre
 7743 - Caresseur en Plume du Dernier Poolay
-7744 - Caresseur en Plume Pointue de Kwak
+7744 - Caresseur en Plume de Dostrogo
 7745 - Caresseur en Plume du Maître Corbac
 7746 - Caresseur en Plume de Tofu Royal
 7753 - La Baguette Huve
@@ -7411,7 +7367,6 @@
 8307 - Clef de la salle du Minotot
 8308 - Carapace de Scaratos
 8309 - Plume du Serpiplume
-8310 - Gelée de Dégelée
 8311 - Poil de Gamino
 8312 - Peau de Minoskito
 8313 - Fémur du Minotoror
@@ -7492,7 +7447,6 @@
 8392 - Peau de Don Duss Ang
 8393 - Poil de Dragon Cochon
 8394 - Méga Pierre du Craqueleur Légendaire
-8396 - Mojo du Mulou
 8397 - Poil du Wa Wabbit
 8398 - Étoffe du Wa Wabbit
 8399 - Poil de Maître Pandore
@@ -7558,7 +7512,7 @@
 8477 - Deuxième clef du Donjon de Sphincter
 8478 - Potion de lèche-bottes
 8480 - Potion de lèche-bottes
-8481 - Poil de Rat d'Égoutant
+8481 - Poil de Rat d'Hyoactif
 8482 - Peau de Rat d'Égoutant
 8483 - Peau de Chamane d'Egoutant
 8484 - Poil de Chamane d'Egoutant
@@ -7620,7 +7574,7 @@
 8543 - Limonade d'Incarnam
 8544 - Certificat de Mise en Chanil : Walk
 8545 - Clef du Donjon d'Incarnam
-8546 - Peau de Milimilou
+8546 - Peau de Mulou Livide
 8547 - Trinsfirmitik ik Nikiril
 8548 - Twansfowmation en Tiwabbit
 8557 - Plume du Batofu
@@ -7878,9 +7832,8 @@
 8848 - Coiffe du Maître Zoth
 8849 - Racine de Fécorce
 8850 - Racine de Floribonde
-8851 - Worn Treasure Map
 8854 - Crack Sparrow's Own Withered Hat
-8855 - Bouclier Fi'Squale
+8855 - Bouclier Fi'Squale cassé
 8856 - Ceinture Rasboulaire du Rasboul
 8858 - Bottes Horchons
 8859 - Sceau Souverain du Roissingue
@@ -8014,36 +7967,36 @@
 8996 - Peau du Rasboul Majeur
 8997 - Peau lacérée du Tynril
 8998 - Pierre précieuse du Kimbo
-9001 - Bouclier de Sidimote
-9002 - Ftalmo
-9003 - Bouclier Taverne
+9001 - Bouclier de Sidimote cassé
+9002 - Ftalmo cassé
+9003 - Bouclier Taverne cassé
 9004 - Bouclier Akwadala
-9005 - Bouclier Ventaille
-9006 - Bouclier du Sadida
-9007 - Bouclier en Slip
-9008 - Bouclier d'Asse
-9009 - Bouclier Abraknyde
-9010 - Bouclier Pandawa
-9011 - Cadran de Feu
-9012 - Cadran d'Air
-9013 - Cadran de Terre
-9014 - Cadran d'Eau
-9015 - Bouclier du Bûcheron
-9016 - Bouclier du Mont Kipou
-9017 - Bouclier des Brigandins
-9018 - Le Karde Coeur
-9019 - Bouclier du Bawbawe
-9020 - Derma Tho
-9021 - Bouclier du Captain Amakna
-9022 - Kloume
-9023 - Bouclier Volant
-9024 - Bouclier du Chouque
+9005 - Bouclier Ventaille cassé
+9006 - Bouclier Pliable cassé
+9007 - Bouclier du Capitaine cassé
+9008 - Bouclier du Rivage cassé
+9009 - Bouclier Abraknyde cassé
+9010 - Bouclier Pandawa cassé
+9011 - Cadran de Feu cassé
+9012 - Cadran d'Air cassé
+9013 - Cadran de Terre cassé
+9014 - Cadran d'Eau cassé
+9015 - Bouclier du Bûcheron cassé
+9016 - Bouclier du Mont Kipou cassé
+9017 - Bouclier Expérimental cassé
+9018 - Le Karde Coeur cassé
+9019 - Bouclier du Bawbawe cassé
+9020 - Derma Tho cassé
+9021 - Bouclier du Captain Amakna cassé
+9022 - Kloume cassé
+9023 - Bouclier Volant cassé
+9024 - Bouclier Shushkebab
 9025 - Bouclier du Bouftou
-9026 - Bouclier de Bowisse
-9027 - Bouclier du Craqueleur
-9028 - Bouclier Terrdala
-9029 - Bouclier Feudala
-9030 - Bouclier Aerdala
+9026 - Bouclier de Bowisse cassé
+9027 - Bouclier du Craqueleur cassé
+9028 - Bouclier Terrdala cassé
+9029 - Bouclier Feudala cassé
+9030 - Bouclier Aerdala cassé
 9031 - Annobusé de Maître Jarbo
 9035 - Potion d'enclos de Guilde
 9037 - Potion de découverte
@@ -8201,8 +8154,8 @@
 9197 - Chapeau Paupayahn
 9198 - Anneau Paupayahn
 9199 - Bottes Paupayahn
-9200 - Parchemin de Sort Invocation de Chaferfu
-9201 - Pawchemin de la Cawotte
+9200 - Sort: Invocation de Chaferfu
+9201 - Pawchemin Sowt: Cawotte
 9202 - L'autre Annobusé de Maître Jarbo
 9233 - Cape Obvijevan
 9234 - Chapeau Obvijevan
@@ -8396,7 +8349,7 @@
 9596 - Cadeau Bouloute du Parrain
 9597 - Transformation Fantôme Bouloute du Parrain
 9598 - Certificat de mise en Chanil : Bouloute du Parrain
-9616 - Fantôme Marcassin
+9616 - Fantôme Marcassin de combat
 9617 - Chacha Angora
 9618 - Cadeau Grosse Bagouze du Parrain
 9619 - Tiwabbit Kiafin
@@ -8454,7 +8407,7 @@
 9671 - Fantôme Crocodaille
 9672 - Transformation Fantôme Crocodaille
 9673 - Transformation Fantôme Dragoune Noire
-9674 - Certificat de mise en Chanil : Marcassin
+9674 - Certificat de mise en Chanil : Marcassin de combat
 9675 - Certificat de mise en Chanil : Chacha Angora
 9676 - Certificat de mise en Chanil : Pioute bleu
 9677 - Certificat de mise en Chanil : Pioute jaune
@@ -8621,7 +8574,7 @@
 9910 - Touflage
 9911 - Camouflage immobile
 9912 - Pandawa attitude
-9916 - Parchemin de Sort Spécial Laisse spirituelle
+9916 - Sort Spécial Laisse spirituelle
 9917 - Parchemin de prime
 9919 - Bague du hibou
 9920 - Parchemin de prime accomplie
@@ -9030,14 +8983,14 @@
 10502 - Potion vers Chêne Mou
 10503 - Potion vers Ougah
 10504 - Potion vers Kimbo
-10506 - Parchemin de Sort Spécial Flèche de dispersion
-10507 - Parchemin de Sort Spécial Retraite anticipée
-10508 - Parchemin de Sort Spécial Mise en Garde
-10509 - Parchemin de Sort Spécial Mot Lotof
-10510 - Parchemin de Sort Spécial Ivresse
-10511 - Parchemin de sort spécial Douleur partagée
-10512 - Parchemin de Sort Spécial Arbre de vie
-10513 - Parchemin de Sort Spécial Raulebaque
+10506 - Sort Spécial Flèche de dispersion
+10507 - Sort Spécial Retraite anticipée
+10508 - Sort Spécial Mise en Garde
+10509 - Sort Spécial Mot Lotof
+10510 - Sort Spécial Ivresse
+10511 - Sort Spécial: Douleur partagée
+10512 - Sort Spécial: Arbre de vie
+10513 - Sort Spécial Raulebaque
 10515 - Cadeau Couronne Koninginnedag
 10516 - Transformation flammèche
 10518 - Recette de la Corde d'escalade
@@ -9061,10 +9014,10 @@
 10598 - Cadeau Gelutin
 10599 - Certificat de mise en chanil : Gelutin
 10601 - Certificat de reconstitution
-10602 - Parchemin de Sort apprivoisement de monture
-10603 - Parchemin de Sort  capture d'âmes
-10604 - Parchemin de Sort marteau de Moon
-10605 - Parchemin de Sort  boomerang perfide
+10602 - Sort: Apprivoisement de monture
+10603 - Sort: Capture d'âmes
+10604 - Sort: Marteau de Moon
+10605 - Sort: Boomerang perfide
 10606 - Gemme Spirituelle de Rat Blanc
 10608 - Potion vers Kralamoure Géant
 10613 - Rune Pa Pi
@@ -9107,11 +9060,11 @@
 10654 - Cadeau Gantelet des Bouftons Rouges
 10655 - Cadeau Bouclier des Bouftons Rouges
 10656 - Cadeau Chapeau de Beneji
-10657 - Chercheur d'Ogrines
-10658 - Fantôme de Chercheur d'Ogrines
+10657 - Goultus
+10658 - Fantôme de Goultus
 10659 - Oeuf du Chercheur d'Ogrines
 10660 - Cadeau Oeuf de Chercheur d'Ogrines
-10661 - Certificat de mise en chanil : Chercheur d'Ogrines
+10661 - Certificat de mise en chanil : Goultus
 10662 - Rune Pa Prospe
 10663 - Brioche à la viande de bouftou
 10664 - Abragland
@@ -9184,7 +9137,6 @@
 10738 - Hormone de Wabbit
 10739 - Hormone de Walk
 10740 - Hormone de Willy le Relou
-10741 - Hormone de Marcassin
 10742 - Hormone de Miniminotot
 10743 - Hormone de Tiwabbit Kiafin
 10744 - Hormone de Chauffe-Souris
@@ -9210,7 +9162,7 @@
 10764 - Potion d'Amélioration de Mini Wa
 10765 - Potion d'Amélioration de Nomoon
 10766 - Potion d'Amélioration de Péki
-10767 - Potion d'Amélioration  de Petit Chacha Blanc
+10767 - Potion d'Amélioration de Petit Chacha Blanc
 10768 - Potion d'Amélioration de Petit Chienchien Noir
 10769 - Potion d'Amélioration de Pioute
 10770 - Potion d'Amélioration de Ross
@@ -9218,7 +9170,6 @@
 10772 - Potion d'Amélioration de Wabbit
 10773 - Potion d'Amélioration de Walk
 10774 - Potion d'Amélioration de Willy le Relou
-10775 - Potion d'Amélioration de Marcassin
 10776 - Potion d'Amélioration de Miniminotot
 10777 - Potion d'Amélioration de Tiwabbit Kiafin
 10778 - Potion d'Amélioration de Chauffe-Souris
@@ -9252,8 +9203,8 @@
 10807 - Fantôme de Dragoune Dorée
 10808 - Hormone de Dragoune Dorée
 10809 - Potion d'Amélioration de Dragoune Dorée
-10810 - Hormone de Chercheur d'Ogrines
-10811 - Potion d'Amélioration de Chercheur d'Ogrines
+10810 - Hormone de Goultus
+10811 - Potion d'Amélioration de Goultus
 10812 - Message anonyme
 10813 - Liste de noms
 10814 - Caisse pour Pandetté
@@ -10631,7 +10582,7 @@
 12237 - Amourlette Hernel
 12238 - Amourlette Hernelle
 12239 - Doplon Zobal
-12241 - Parchemin de Sort Spécial Roublabot
+12241 - Sort Spécial Roublabot
 12242 - Crâne de Roublard
 12243 - Crâne de Zobal
 12244 - Chrysanthème
@@ -10693,6 +10644,7 @@
 12323 - Parchemin d'attitude Lire un livre
 12324 - Parchemin d'attitude Lever le pouce
 12326 - Parchemin d'attitude Baisser le pouce
+12329 - Parchemin d'attitude Jouer du Tambour
 12331 - Parchemin d'attitude Bâiller
 12332 - Petit Parchemin de Niveau
 12333 - Parchemin de Niveau
@@ -11063,7 +11015,6 @@
 12718 - Savant mineur
 12719 - Savant majeur
 12720 - Savant
-12721 - Queue de Milimilou
 12722 - Furibond mineur
 12723 - Furibond
 12724 - Furibond majeur
@@ -11136,21 +11087,21 @@
 12796 - Bouclier du Champion 640
 12797 - Bouclier du Champion 641
 12798 - Bouclier du Survivant
-12799 - Parchemin de Sort Spécial Diffraction
-12800 - Parchemin de Sort Spécial Roublard : Roublabot
-12801 - Parchemin de Sort Spécial Enutrof : Retraite anticipée
-12802 - Parchemin de Sort Spécial Sram : Poisse
-12803 - Parchemin de Sort Spécial Eniripsa : Mot Lotof
-12804 - Parchemin de Sort Spécial Féca : Mise en Garde
-12805 - Parchemin de Sort Spécial Osamodas : Laisse spirituelle
-12806 - Parchemin de Sort Spécial Pandawa : Ivresse
-12807 - Parchemin de Sort Spécial Ecaflip : Félintion
-12808 - Parchemin de Sort Spécial Crâ : Flèche de dispersion
-12809 - Parchemin de sort spécial Sacrieur : Douleur partagée
-12810 - Parchemin de Sort Spécial Zobal : Diffraction
-12811 - Parchemin de Sort Spécial Iop : Brokle
-12812 - Parchemin de Sort Spécial Sadida : Arbre de vie
-12813 - Parchemin de Sort Spécial Xélor : Raulebaque
+12799 - Sort Spécial: Diffraction
+12800 - Sort Spécial Roublard: Roublabot
+12801 - Sort Spécial Enutrof : Retraite anticipée
+12802 - Sort Spécial Sram : Poisse
+12803 - Sort Spécial Eniripsa : Mot Lotof
+12804 - Sort Spécial Féca : Mise en Garde
+12805 - Sort Spécial Osamodas : Laisse spirituelle
+12806 - Sort Spécial Pandawa : Ivresse
+12807 - Sort Spécial Ecaflip : Félintion
+12808 - Sort Spécial Crâ: Flèche de dispersion
+12809 - Sort Spécial Sacrieur: Douleur partagée
+12810 - Sort Spécial Zobal : Diffraction
+12811 - Sort Spécial Iop : Brokle
+12812 - Sort Spécial Sadida: Arbre de vie
+12813 - Sort Spécial Xélor : Raulebaque
 12814 - Kipik en Chocolat
 12815 - Kipik de Nowel
 12816 - Cadeau de Nowel
@@ -11459,6 +11410,9 @@
 13179 - Fée d'artifice jaune de Pwâk
 13180 - Fée d'artifice verte de Pwâk
 13181 - Fée d'artifice rouge de Pwâk
+13182 - Kramkram
+13183 - Fantôme de Kramkram
+13184 - Certificat de mise en chanil : Kramkram
 13187 - Cadeau Scaphandre de l'Hyperscampe
 13188 - Lapino
 13189 - Potion infinie
@@ -11574,8 +11528,8 @@
 13304 - Ceinture Teule
 13305 - Bonnet Hui
 13306 - Chapeau Thé
-13307 - Parchemin de Sort Spécial Steamer : Brise l'âme
-13308 - Parchemin de Sort Spécial Brise l'âme
+13307 - Sort Spécial Steamer: Brise l'âme
+13308 - Sort Spécial: Brise l'âme
 13309 - Sang Boueux
 13310 - Sang Humide
 13311 - Sang Incandescent
@@ -11734,7 +11688,7 @@
 13464 - Cadeau Diplanneau
 13465 - Sakochère
 13467 - Parchemin d'attitude Halouine
-13468 - Bouclier du Champion 642
+13468 - Bouclier du Champion 648
 13469 - Bouclier Hispanique Doré
 13470 - Compensaton
 13471 - Cadeau de Compensation
@@ -12075,6 +12029,9 @@
 13820 - Muraille Air mineure
 13821 - Muraille Air
 13822 - Muraille Air majeure
+13823 - Puissant mineur
+13824 - Puissant
+13825 - Puissant majeur
 13826 - Robuste mineur
 13827 - Robuste
 13828 - Robuste majeur
@@ -12287,7 +12244,7 @@
 14045 - Clef des Salons privés de Klime
 14046 - Clef du Laboratoire de Nileza
 14047 - Clef du Donjon du Comte Harebourg
-14048 - Parchemin de Sort Maîtrise d'Arme
+14048 - Sort: Maîtrise d'Arme
 14049 - Bague Nostik
 14050 - Masque de Klime
 14051 - Cape de Klime
@@ -12660,15 +12617,9 @@
 14494 - Casque du Blanc Pa Wabbit
 14495 - Ceinture du Blanc Pa Wabbit
 14496 - Bracelet du Blanc Pa Wabbit
-14497 - Anneau du Wabbit Céphale
-14498 - Amulette du Wabbit Céphale
-14499 - Bottes du Wabbit Céphale
-14500 - Bottes du Wabbit Garou
-14501 - Cape du Wabbit Garou
-14502 - Ceinture du Wabbit Garou
 14503 - Cawotte fraîche
 14504 - Chapokapi
-14505 - Coupe de Dragokart
+14505 - Coupe de Dragokart cassé
 14506 - Perruque de Iop
 14507 - Pelote d'Ecaflip
 14508 - Cire de Gligli
@@ -12791,6 +12742,10 @@
 14679 - Badge de l'Arakne Sombre
 14680 - Badge de l'Arakne Céleste
 14687 - Badge du Bouftou Sombre
+14689 - Badge du Grand Pâté de Sable
+14690 - Badge du Pâté de Sable Grincheux
+14691 - Badge du Ploup Azuré
+14692 - Badge du Ploup Sanguin
 14693 - Hormone d'Abra Kadabra
 14694 - Hormone de Bouloute
 14695 - Hormone de Croum
@@ -12817,7 +12772,7 @@
 14724 - Bouclier Hitche
 14725 - Cape Shushivan
 14726 - Chapeau Shushivan
-14727 - Skeunklier
+14727 - Bouclier trophée de Skeunk
 14728 - Badge du Bouftou Céleste
 14729 - Badge du Tofu Sombre
 14730 - Badge du Tofu Céleste
@@ -12898,6 +12853,10 @@
 14890 - Certificat de mise en chanil : Chacha Mesuré
 14891 - Hormone de Chacha Mesuré
 14892 - Potion d'Amélioration de Chacha Mesuré
+14893 - Plume de Tofu Sombre
+14894 - Plume de Tofu Céleste
+14895 - Plume de Piou Sombre
+14896 - Plume de Piou Céleste
 14897 - Cape du Capitaine Pirate
 14898 - Chapeau du Capitaine Pirate
 14899 - Alliance du Capitaine Pirate
@@ -12936,14 +12895,19 @@
 14932 - Gerbouille
 14933 - Fantôme de Gerbouille
 14934 - Certificat de mise en chanil : Gerbouille
-14935 - Hormone de Gerbouille
-14936 - Potion d'Amélioration de Gerbouille
 14937 - Dragouf Noir
 14938 - Fantôme de Dragouf Noir
 14939 - Certificat de mise en chanil : Dragouf Noir
 14940 - Hormone de Dragouf Noir
 14941 - Potion d'Amélioration de Dragouf Noir
 14942 - Parchemin d'attitude S'abriter sous un parasol
+14944 - Note d'observation *
+14945 - Note d'observation **
+14946 - Note d'observation ***
+14947 - Note d'observation ****
+14948 - Note d'observation *****
+14949 - Perle d'eau douce
+14950 - Perle de Sable
 14951 - Cadeau de Compensation
 14952 - Bicorne
 14953 - Casque du Batailleur
@@ -12979,6 +12943,16 @@
 14983 - Potion d'Amélioration de Titard
 14984 - Offrir un Gâteau
 14985 - Pêcheur
+14986 - Badge du Ploup Azuré
+14987 - Badge du Ploup Sanguin
+14988 - Badge du Pâté de Sable Grincheux
+14989 - Badge du Grand Pâté de Sable
+14991 - Chapeau de l'Agence Touriste
+14992 - Cape de l'Agence Touriste
+14993 - Bouclier de l'Agence Touriste
+14994 - Pelle de l'Agence Touriste
+14995 - Première partie de la clef du Donjon Ensablé
+14996 - Seconde partie de la clef du Donjon Ensablé
 14999 - Ordre de mission
 15000 - Bouclier Bontarien
 15001 - Bouclier Brâkmarien
@@ -12989,9 +12963,1312 @@
 15006 - Certificat d'obtention: récompense magistrale
 15007 - Certificat d'obtention: récompense imposante
 15008 - Certificat d'obtention: récompense impressionnante
+15014 - Graisse de Ploup Azuré
+15015 - Graisse de Ploup Sanguin
+15016 - Écaille brillante
+15017 - Coquillage coloré
+15018 - Sable Doré
+15019 - Petit mot pour Maman
+15020 - Petit mot corrigé pour Maman
+15021 - Bouquet très spécial
 15022 - Certificat d'obtention: récompense magistrale
 15023 - Certificat d'obtention: récompense imposante
 15024 - Certificat d'obtention: récompense impressionnante
 15025 - Crochet
 15026 - Crochet
 15027 - Crochet
+15028 - Chacharge
+15029 - Fantôme de Chacharge
+15030 - Certificat de mise en chanil : Chacharge
+15031 - Hormone de Chacharge
+15032 - Potion d'Amélioration de Chacharge
+15033 - Tofureur
+15034 - Fantôme de Tofureur
+15035 - Certificat de mise en chanil : Tofureur
+15036 - Hormone de Tofureur
+15037 - Potion d'Amélioration de Tofureur
+15038 - Bounax
+15039 - Fantôme de Bounax
+15040 - Certificat de mise en chanil : Bounax
+15041 - Hormone de Bounax
+15042 - Potion d'Amélioration de Bounax
+15043 - Pommeau de Sinistrooll
+15044 - Lame de Sinistrooll
+15045 - Anneau de Pein Nogaine
+15046 - Parchemin d'Appellation: Dieu de l'arène
+15047 - Parchemin d'Appellation: Agitateur du peuple
+15048 - Parchemin d'Appellation: Dieu de rechange
+15049 - Brandir son bouclier
+15050 - Aile de Gouleton
+15051 - Goulobule rouge
+15052 - Œil de Goulgotier
+15053 - Ongle de Goulvernante
+15054 - Poil de Délégoule
+15055 - Baton Rifique
+15056 - Bouclier Rifique
+15057 - Cape Rifique
+15058 - Chapeau Rifique
+15059 - Goulano
+15060 - Goulbottes
+15061 - Marteau Goule
+15062 - Goulclier
+15063 - Os pointu
+15064 - Homlett
+15065 - Fantôme de Homlett
+15066 - Certificat de mise en chanil : Homlett
+15067 - Hormone de Homlett
+15068 - Potion d'Amélioration de Homlett
+15069 - Message dans une bouteille
+15070 - Page de journal endommagée
+15071 - Page de journal mâchouillée
+15072 - Page de journal griffonnée à la hâte
+15073 - Page de journal trempée de bave
+15074 - Page de journal mordillée
+15075 - Perfidoclier
+15076 - Jambe déformée
+15077 - Jambe fêlée
+15078 - Bras grignoté
+15079 - Crâne humain dégarni
+15080 - Bras étrangement tordu
+15081 - Omoplate de l'Os Andeuk'Hou
+15082 - Mâchoire de l'Os Théo
+15083 - Colonne Vertébrale d'Os Thyl
+15084 - Morceau de capuche de l'Os Ther
+15085 - Huile d'os
+15086 - Cadeau: Lot de Kolizétons
+15087 - Cadeau: Petit lot de Kolizétons
+15088 - Cadeau: Gros lot de Kolizétons
+15089 - Clef du Roc Ostique
+15090 - Clef du Goulden Palace
+15091 - Tête de Goule
+15092 - Nécromant néophyte
+15093 - La Chose
+15094 - Fantôme de La Chose
+15095 - Certificat de mise en chanil : La Chose
+15096 - Hormone de La Chose
+15097 - Potion d'Amélioration de La Chose
+15098 - Parchemin d'attitude Zombique
+15099 - Coiffe Zombique
+15100 - Cape Zombique
+15101 - Bouclier Zombique
+15102 - Badge du Troollogram
+15103 - Badge du Troollolens
+15104 - Badge du Troolligophrène
+15105 - Badge du Troollibrius
+15106 - Badge du Troollogram
+15107 - Badge du Troollolens
+15108 - Badge du Troolligophrène
+15109 - Badge du Troollibrius
+15110 - Cape de Troollérance
+15112 - Boucle d'oreille de Troollérance
+15113 - Ceinture de Troollérance
+15114 - Pilule d'accalmie
+15115 - Petite Compensabox
+15116 - Godron Bontarien
+15117 - Fantôme de Godron Bontarien
+15118 - Certificat de mise en chanil : Godron Bontarien
+15119 - Hormone de Godron Bontarien
+15120 - Potion d'Amélioration de Godron Bontarien
+15121 - Godron Brâkmarien
+15122 - Fantôme de Godron Brâkmarien
+15123 - Certificat de mise en chanil : Godron Brâkmarien
+15124 - Hormone de Godron Brâkmarien
+15125 - Potion d'Amélioration de Godron Brâkmarien
+15126 - Godron Charmant
+15127 - Fantôme de Godron Charmant
+15128 - Certificat de mise en chanil : Godron Charmant
+15129 - Hormone de Godron Charmant
+15130 - Potion d'Amélioration de Godron Charmant
+15131 - Godron Mesuré
+15132 - Fantôme de Godron Mesuré
+15133 - Certificat de mise en chanil : Godron Mesuré
+15134 - Hormone de Godron Mesuré
+15135 - Potion d'Amélioration de Godron Mesuré
+15136 - Godron Poisseux
+15137 - Fantôme de Godron Poisseux
+15138 - Certificat de mise en chanil : Godron Poisseux
+15139 - Hormone de Godron Poisseux
+15140 - Potion d'Amélioration de Godron Poisseux
+15141 - Godron Ventru
+15142 - Fantôme de Godron Ventru
+15143 - Certificat de mise en chanil : Godron Ventru
+15144 - Hormone de Godron Ventru
+15145 - Potion d'Amélioration de Godron Ventru
+15146 - Kougnard
+15147 - Fantôme de Kougnard
+15148 - Certificat de mise en chanil : Kougnard
+15149 - Hormone de Kougnard
+15150 - Potion d'Amélioration de Kougnard
+15151 - Kougnard Albâtre
+15152 - Fantôme de Kougnard Albâtre
+15153 - Certificat de mise en chanil : Kougnard Albâtre
+15154 - Hormone de Kougnard Albâtre
+15155 - Potion d'Amélioration de Kougnard Albâtre
+15156 - Pholaine
+15157 - Fantôme de Pholaine
+15158 - Certificat de mise en chanil : Pholaine
+15159 - Hormone de Pholaine
+15160 - Potion d'Amélioration de Pholaine
+15161 - Parchemin d'Appellation: Nouveau Sang
+15162 - Guerrier de Sidimote
+15163 - Nouveau Sang
+15164 - Guertrude
+15165 - Bivalve
+15166 - Roncier
+15167 - Héros de Sidimote
+15168 - Guerrier d'Otomaï
+15169 - Héros d'Otomaï
+15170 - Os taillé
+15171 - Dent Pointue
+15172 - Colonne Vertébrale
+15173 - Bouclier du Chasseur de Trooll cassé
+15174 - Boule de Nowel
+15175 - Chaussettenlaine
+15176 - Lainture
+15177 - Capelaine
+15178 - Bonnellaine
+15179 - Patron du Père Fwetar
+15180 - Bottes du Père Fwetar
+15181 - Anneau du Père Fwetar
+15182 - Ceinture du Père Fwetar
+15183 - Peau du Troollolens
+15184 - Œil de Crowneille
+15185 - Bon d'achat du Bouftou Céleste
+15186 - Bon d'achat du Tofu Céleste
+15187 - Bon d'achat du Piou Céleste
+15188 - Bon d'achat du Sanglier Céleste
+15189 - Bon d'achat de l'Arakne Céleste
+15191 - Bon d'achat de l'Agence Touriste
+15192 - Bourse de kamas
+15193 - Plume de vieux corbac
+15194 - Annonce du Maître Corbac
+15195 - Sang noir de mulou
+15196 - Recette de l'encre antipathique
+15197 - Encre antipathique
+15198 - String en cuir de Tyranike
+15199 - Folyo
+15200 - Premier morceau de clef de la Bibliothèque du Maître Corbac
+15201 - Second morceau de clef de la Bibliothèque du Maître Corbac
+15202 - Mélange pour encre antipathique
+15203 - Clef des cages
+15204 - Scalp de Bwork
+15205 - Vieille pelle rouillée
+15206 - Fiole de liquide étrange
+15207 - Paire de chaussettes moisies
+15208 - Livre poussiéreux
+15209 - Chose brillante et précieuse
+15210 - Objet démesurément rutilant
+15211 - Carte d'adhésion au syndikâ
+15212 - Poils odorants de l'ours en peluche
+15213 - Lame Bwork
+15214 - Longueur de corde solide
+15215 - Morve du Troollibrius
+15216 - Tranche de jambon cuit
+15217 - Poil de Chamane Trooll
+15218 - Cape Tagrame
+15219 - Anneau Toriété
+15220 - Parchemin d'Appellation: Toujours sur la brèche
+15221 - Parchemin d'Appellation: Historien
+15222 - Maitre nécromant
+15223 - Kwaltess
+15224 - Fantôme de Kwaltess
+15225 - Certificat de mise en chanil : Kwaltess
+15228 - Bouclier Extravagant
+15229 - Bouclier Ridite
+15230 - Coffret de récompense du Wa Wabbit
+15231 - Dragnir
+15232 - Fantôme de Dragnir
+15233 - Certificat de mise en chanil : Dragnir
+15234 - Hormone de Dragnir
+15235 - Potion d'Amélioration de Dragnir
+15237 - Coffret de récompense
+15238 - Ailes du Ballotin
+15239 - Couronne du Ballotin
+15240 - Marteau du Ballotin
+15241 - Bouclier du Ballotin
+15242 - Bouclier trophée du Maître Corbac
+15243 - Bienfaisant
+15245 - Casquoporth
+15246 - Ceintrémorse
+15247 - Crolier
+15248 - Chaussquales
+15249 - Capikténia
+15250 - Veranneau
+15251 - Entrailles de Ver des sables
+15252 - Carapace de Ver des Sables
+15253 - Dent de Cycloporth
+15255 - Patte de Masticroc
+15256 - Langue de Morsquale
+15257 - Pic de Pikténia
+15258 - Peau de Trémorse
+15259 - Tourmaline
+15261 - Fierté du combattant
+15262 - Sedierta Otel
+15263 - Échantillon végétal
+15264 - Migraine
+15265 - Mojitox
+15266 - Langue ensanglantée de Morsquale
+15267 - Peau trouée de Trémorse
+15268 - Sonde d'étude
+15269 - Sonde déréglée
+15270 - Élixir de repos mérité
+15271 - Linceul spectral
+15272 - Parchemin d'Appellation: Désinsectiseur
+15273 - Parchemin d'Appellation: Bête à test
+15274 - Parchemin d'Appellation: Champion des Bêtas
+15275 - Sharivaton
+15276 - Monnaie d'Appoint
+15277 - Atout
+15278 - Ticket Doré
+15279 - Bague Folklorique
+15280 - Gemme de Cruauté
+15281 - Joyau de Charité
+15282 - Chevalière Bohème
+15283 - Sceau d'Autorité
+15284 - Marque des Favoris
+15285 - Quatre-feuilles
+15286 - Boxer
+15287 - Éthylique
+15288 - Amateur de tavernes
+15289 - Fléau des tavernes
+15290 - Cape de Coqueline
+15291 - Masque de Coqueline
+15292 - Collier géant de Coqueline
+15293 - Choclier
+15294 - Casque du Scarab
+15295 - Cape du Scarab
+15296 - Bouclier du Scarab
+15297 - Visiteur d'Externam
+15298 - Ambassadeur d'Externam
+15300 - Cape Lagomorphe
+15301 - Casque Lagomorphe
+15302 - Amulette du Cœur Vaillant
+15303 - Bottes du Cœur Vaillant
+15304 - Cape du Cœur Vaillant
+15305 - Bouclier des Abîmes
+15306 - Parchemin d'Appellation: Rescapé des Abîmes
+15307 - Bouclier du Cycloïde
+15308 - Poltron
+15309 - Rube
+15310 - Heureux
+15311 - Niais
+15312 - Sieste
+15315 - Poils de balai
+15316 - Poils de paillasson
+15317 - Arc Droïde
+15318 - Bouclier Droïde
+15319 - Cape Droïde
+15320 - Coiffe Droïde
+15321 - Drakopin
+15322 - Fantôme de Drakopin
+15323 - Certificat de mise en chanil : Drakopin
+15324 - Hormone de Drakopin
+15325 - Potion d'Amélioration de Drakopin
+15326 - Rakariatre
+15327 - Fantôme de Rakariatre
+15328 - Certificat de mise en chanil : Rakariatre
+15331 - Élémentaire
+15332 - Bouclier Viscéral cassé
+15333 - Album de Ralf Loupain
+15334 - Bouclier Sufokien
+15335 - Cape du Samouraï
+15336 - Ceinture du Samouraï
+15337 - Casque du Samouraï
+15338 - Sabre du Samouraï
+15339 - Bouclier Tribal
+15340 - Grinchu
+15342 - Caleçon en Grithril
+15343 - Fausse dent en acier
+15344 - Fausse barbe
+15345 - Écu de la discorde
+15346 - Anneau Ouroboulos
+15347 - Cape Ouroboulos
+15348 - Bottes Ouroboulos
+15349 - Écailles de Ka'Youloud
+15350 - Arkaillou
+15352 - Arkaillou raffiné
+15353 - Arkamètre
+15354 - Cape d'Ava Taroun
+15355 - Collier d'Ava Taroun
+15356 - Fausse griffe d'Ava Taroun
+15357 - May Shrebell
+15358 - Bouclier XIV
+15359 - Cape XIV
+15360 - Coiffe XIV
+15361 - Bâton XIV
+15362 - Bottes des Grocoricos
+15363 - Bouclier des Grocoricos
+15364 - Ceinture des Grocoricos
+15365 - Casque des Grocoricos
+15366 - Amulette Verréhor
+15367 - Bouclier Verréhor
+15368 - Ceinture Verréhor
+15369 - Coiffe Verréhor
+15370 - Tatouf
+15371 - Fantôme de Tatouf
+15372 - Certificat de mise en chanil : Tatouf
+15373 - Hormone de Tatouf
+15374 - Potion d'Amélioration de Tatouf
+15376 - Recrue de la rébellion
+15377 - Pionnier de la rébellion
+15378 - Parchemin de Ralf Loupain
+15379 - Transformation en Nimbos
+15380 - Nimbotox
+15381 - Baelbar Benpic
+15382 - Ceinture de Cuirhacher
+15383 - Arkanneau
+15384 - Casque de Cuirhacher
+15385 - Rasoir de poche
+15386 - Fausse barbe du Nincognito
+15387 - Barbacapa
+15388 - Dragodinde Barbare
+15389 - Ankhape
+15390 - Collier de Lilotte
+15391 - Epée de l'Empereur
+15392 - Souliers Vernis Bruns
+15393 - Magclier
+15394 - Capuche de Moum-Ra
+15395 - Slip Vert
+15396 - Boracelet
+15397 - Cape de l'Empereur
+15398 - Bouclier de l'Empereur
+15399 - Coiffe de l'Empereur
+15400 - Capéclair
+15401 - Epéclair
+15402 - Coifféclair
+15403 - Boucliéclair
+15404 - Bâlnéton
+15405 - Sandalnéaires
+15406 - Coiffleur de l'Été
+15407 - Cabalnéaire
+15408 - Bandeau de Bakara
+15409 - Cape de Bakara
+15410 - Clochette de Lilotte
+15411 - Collier de Khan Karkass
+15412 - Slip de Khan Karkass
+15413 - Sanguinolent
+15414 - Richissime
+15415 - Dragodinde Royale
+15416 - Glub
+15417 - Fantôme de Glub
+15418 - Certificat de mise en chanil : Glub
+15419 - Hormone de Glub
+15420 - Potion d'Amélioration de Glub
+15421 - Bloalak
+15422 - Fantôme de Bloalak
+15423 - Certificat de mise en chanil : Bloalak
+15424 - Hormone de Bloalak
+15425 - Potion d'Amélioration de Bloalak
+15426 - Chope vide
+15427 - Épaulettes du Colonimb
+15428 - Poils de barbe du cavalier Ronimbos
+15429 - Clef du Barrage Dure-Tête
+15430 - Dent de Cuirhacher
+15431 - Armure de Nimbroyeur
+15432 - Fronde du cavalier Brise-pierre
+15433 - Jambières de Cogneroc
+15434 - Patte robuste de Masticroc
+15435 - Pic fendu de Pikténia
+15436 - Page couverte de symboles
+15437 - Ver Itay
+15438 - Doc
+15439 - Recette de la Teinture Orange Sanguine
+15440 - Fausse dent en grithril
+15441 - Pierres précieuses noires
+15442 - Caillou gris
+15443 - Oreiller en poils de bouftou des cavernes
+15444 - Peluche de bouftou des cavernes
+15445 - Laine de bouftou des cavernes
+15446 - Ficelle épaisse de nimbos
+15447 - Saphir
+15448 - Jade
+15449 - Topaze
+15450 - Planning des livraisons du jour
+15451 - Planning des livraisons du jour
+15452 - Caisse de Grinness
+15453 - Caisse de Kentergob
+15454 - Caisse de Stellarge
+15455 - Caisse de Kramélite
+15458 - Diamant du clan Dure-Tête
+15459 - Plume abîmée de corbac
+15460 - Truc qui gigote en bouteille
+15461 - Algue verte pourrissante
+15462 - Champignon marron comestible
+15463 - Champignons hallucinogènes
+15464 - Larve vivante
+15465 - Œuf d'arakne luisant
+15466 - Bonbon qui colle
+15467 - Fuit de l'île de Moon
+15468 - Pizza de deux semaines
+15469 - Fleures bleues
+15470 - Boîte d'ongles de pied
+15471 - Jus de cawottes pressées
+15472 - Seau d'eau miroitante
+15473 - Tonneau de peinture multicolore
+15474 - Mort-Moelle
+15475 - Cerveau tout rose
+15476 - Trèfle en pot
+15477 - Poisson frétillant
+15478 - Petit morceau d'arkaillou
+15479 - Gland
+15480 - Potiron bien rond
+15481 - Œil globuleux
+15482 - Liquide étrange
+15483 - Jus noirâtre
+15484 - Potion rouge
+15485 - Potion jaune
+15486 - Potion verte
+15487 - Étoile de la mer d'Asse
+15488 - Grinness
+15489 - Sécheresse
+15490 - Crâne de wabbit
+15492 - Réparations en arkaillou
+15493 - Fausse dent en arkaillou
+15494 - Cadeau Dragodinde Barbare
+15495 - Ka'Youloud
+15496 - Signature de Barram Nim
+15497 - Signature de Tyris Nestocho
+15498 - Signature de Boldess Turgeon
+15499 - Signature de Gathor Boyaud
+15500 - Signature de Grodalf l'Aigri
+15501 - Signature de Pattah Filenpoil
+15502 - Signature de Karl Cerall
+15503 - Colis pour Marga Riko
+15504 - Cawotte fondante
+15505 - Sable très fin
+15506 - Potion de Ninstradamus
+15510 - Morceau d'arkaillou
+15511 - Sousouris
+15512 - Symbole de gratitude Grodunk
+15513 - Symbole de gratitude Zaforge
+15514 - Bouclier Robuste
+15515 - Coiffe Dragosaure
+15516 - Cape Dragosaure
+15517 - Bouclier Dragosaure
+15518 - Chaprintanier
+15519 - Caprintanière
+15520 - Printanneau
+15521 - Printatanes
+15522 - Cape Robuste
+15523 - Casque Robuste
+15524 - Chienchien Roux
+15525 - Fantôme de Chienchien Roux
+15526 - Certificat de mise en chanil : Chienchien Roux
+15527 - Hormone de Chienchien Roux
+15528 - Potion d'Amélioration de Chienchien Roux
+15529 - Surime
+15530 - Fantôme de Surime
+15531 - Certificat de mise en chanil : Surime
+15532 - Hormone de Surime
+15533 - Potion d'Amélioration de Surime
+15534 - Soldat blessé
+15535 - Jurassique
+15536 - Safariclier
+15537 - Cadeau Dragodinde Royale
+15538 - Parchemin d'attitude Dragosaure
+15539 - Potion de changement de classe
+15540 - Bouclier du Parangon
+15541 - Chaperlipopette
+15542 - Fantôme de Chaperlipopette
+15543 - Certificat de mise en chanil : Chaperlipopette
+15544 - Hormone de Chaperlipopette
+15545 - Potion d'Amélioration de Chaperlipopette
+15546 - Mécaphor
+15547 - Fantôme de Mécaphor
+15548 - Certificat de mise en chanil : Mécaphor
+15549 - Hormone de Mécaphor
+15550 - Potion d'Amélioration de Mécaphor
+15551 - Bouclier Divin
+15552 - Cape Divine
+15553 - Casque Divin
+15554 - Bouclier du Bou Canier
+15555 - Doduveteuse
+15556 - Dodoulos
+15557 - Ceinture de Dodus
+15558 - Bottines de Dodus
+15560 - Écaille juvénile
+15561 - Écaille novice
+15562 - Écaille mature
+15563 - Écaille vénérable
+15564 - Pierre draconique
+15565 - Essence d'Abraknyde Ancestral
+15566 - Essence d'Obsidiantre
+15567 - Essence d'Ougah
+15568 - Essence de Batofu
+15569 - Essence de Ben le Ripate
+15571 - Essence de Blop Royal
+15573 - Essence de Bouftou Royal
+15575 - Essence de Bworker
+15576 - Essence de Bworkette
+15577 - Essence de Chafer Rōnin
+15578 - Essence de Chêne Mou
+15579 - Essence de Corailleur Magistral
+15580 - Essence de Craqueleur Légendaire
+15581 - Essence de Crocabulia
+15582 - Essence de Daïgoro
+15583 - Essence de Dragon Cochon
+15584 - Essence de Fuji Givrefoux
+15586 - Essence de Glourséleste
+15587 - Essence de Gourlo le Terrible
+15588 - Essence de Grolloum
+15589 - Essence de Kanniboul Ebil
+15590 - Essence de Kimbo
+15591 - Transformation Draconique
+15592 - Estival
+15593 - Parchemin d'Appellation: Casse l'écaille
+15594 - Parchemin d'Appellation: Parangon Crâ
+15595 - Parchemin d'Appellation: Parangon Ecaflip
+15596 - Parchemin d'Appellation: Parangon Eniripsa
+15597 - Parchemin d'Appellation: Parangon Enutrof
+15598 - Parchemin d'Appellation: Parangon Féca
+15599 - Parchemin d'Appellation: Parangon Iop
+15600 - Parchemin d'Appellation: Parangon Osamodas
+15601 - Parchemin d'Appellation: Parangon Pandawa
+15602 - Parchemin d'Appellation: Parangon Roublard
+15603 - Parchemin d'Appellation: Parangon Sacrieur
+15604 - Parchemin d'Appellation: Parangon Sadida
+15605 - Parchemin d'Appellation: Parangon Sram
+15606 - Parchemin d'Appellation: Parangon Steamer
+15607 - Parchemin d'Appellation: Parangon Xélor
+15608 - Parchemin d'Appellation: Parangon Zobal
+15609 - Arc corrompu
+15610 - Bâton du Chêne Mou
+15611 - Bouclier Captivant
+15612 - Bouclier Cochon
+15613 - Bouclier du Roi Sadida
+15614 - Bouclier Exotique
+15615 - Clef à Molette
+15616 - Épée du saigneur de vampires
+15617 - Tranche Goule
+15618 - Glaive tiède
+15620 - Amulette de Moon
+15621 - Cape de Moon
+15622 - Marteau de Moon
+15623 - Amuronce
+15624 - Capronce
+15625 - Ceinturonce
+15626 - Couronce
+15627 - Bouclier Scintillant
+15628 - Cape Scintillante
+15629 - Coiffe Scintillante
+15630 - Sylvestre
+15631 - Pelle de la Corporation
+15633 - Plume de Dolbinos
+15634 - Plume de Dolivar
+15635 - Plume de Dostrogo
+15636 - Part de gâteau
+15637 - Mosk
+15638 - Fantôme de Mosk
+15639 - Certificat de mise en chanil : Mosk
+15640 - Hormone de Mosk
+15641 - Potion d'Amélioration de Mosk
+15642 - Capsule de sort: Boumboume
+15643 - Capsule de sort: Bulle
+15644 - Capsule de sort: Ronces Multiples
+15645 - Capsule de sort: Boîte de Pandore
+15646 - Capsule de sort: Flèche Glacée
+15647 - Capsule de sort: Frappe du Craqueleur
+15648 - Capsule de sort: Colère de Iop
+15649 - Capsule de sort: Surcharge
+15650 - Capsule de sort: Apathie
+15651 - Capsule de sort: Horloge
+15652 - Capsule de sort: Attaque Mortelle
+15653 - Capsule de sort: Gueule de Bois
+15654 - Capsule de sort: Langue Râpeuse
+15655 - Capsule de sort: Folie Sanguinaire
+15656 - Capsule de sort: Mot de Sacrifice
+15657 - Super Parchemin de Tailleur
+15658 - Crâne de Goulgotier affamé
+15659 - Dofushu
+15660 - Bandelette Hyquête
+15661 - Contrat signé par le Boostache
+15662 - Contrat signé par l'Os Andeuk'Hou
+15663 - Transformation en momie
+15664 - Bandelette Hyquête sale
+15665 - Ailes du Chevalier Aérien
+15666 - Bouclier du Chevalier Aérien
+15667 - Casque du Chevalier Aérien
+15668 - Pelle du Chevalier Aérien
+15669 - Animulette
+15670 - Cape Syché
+15671 - Coiffe Antôme
+15672 - Bandeau du Ninja Vert
+15673 - Carapace du Ninja Vert
+15674 - Nunchakus du Ninja Vert
+15675 - Pizzaclier du Ninja Vert
+15676 - Bottes des 1001 Griffes
+15677 - Bouclier des 1001 Griffes
+15678 - Culotte des 1001 Griffes
+15679 - Heaume des 1001 Griffes
+15680 - Nunchaku des 1001 Griffes
+15681 - Queue des 1001 Griffes
+15682 - Torque des 1001 Griffes
+15683 - Dagues du Groom
+15684 - Chapeau du Groom
+15685 - Cape du Groom
+15686 - Bouclier du Groom
+15687 - Coiffe de la Crypte
+15688 - Cape de la Crypte
+15689 - Bouclier de la Crypte
+15690 - Bouclier de l'Orfèvre Impérial
+15691 - Bouclier Étoilé
+15692 - Bouclier de Shariva
+15693 - Plumache
+15694 - Plumape
+15695 - Plumoclier
+15696 - Scalplume
+15697 - Dauge
+15698 - Fantôme de Dauge
+15699 - Certificat de mise en chanil : Dauge
+15700 - Hormone de Dauge
+15701 - Potion d'Amélioration de Dauge
+15702 - Eliôme
+15703 - Fantôme de Eliôme
+15704 - Certificat de mise en chanil : Eliôme
+15705 - Hormone de Eliôme
+15706 - Potion d'Amélioration de Eliôme
+15707 - Le Paztek pour les nuls
+15708 - Dictionnaire Paztek
+15709 - Chauffe-souris d'Halouine
+15710 - Fantôme de Chauffe-souris d'Halouine
+15711 - Certificat de mise en chanil : Chauffe-souris d'Halouine
+15712 - Hormone de Chauffe-souris d'Halouine
+15713 - Potion d'Amélioration de Chauffe-souris d'Halouine
+15714 - Moumoute
+15715 - Fantôme de Moumoute
+15716 - Certificat de mise en chanil : Moumoute
+15717 - Hormone de Moumoute
+15718 - Potion d'Amélioration de Moumoute
+15719 - Touriste de Moon
+15720 - Criminel
+15722 - Bonbon tout rose
+15723 - Bonbon tout rose
+15724 - Bonbon vert fluo
+15725 - Bonbon vert fluo
+15726 - Bonbon ardent
+15727 - Bonbon ardent
+15728 - Bonbon bleuté
+15729 - Bonbon bleuté
+15730 - Goût de Sérénité
+15731 - Bonbon de Sérénité
+15732 - Parchemin détrempé
+15733 - Parchemin d'Appellation: Forgemage talentueux
+15734 - Bouloute d'Halouine
+15735 - Fantôme de Bouloute d'Halouine
+15736 - Certificat de mise en chanil : Bouloute d'Halouine
+15737 - Hormone de Bouloute d'Halouine
+15738 - Potion d'Amélioration de Bouloute d'Halouine
+15739 - Collier boussole du chasseur de trésors
+15740 - Cape Oflère
+15741 - Bottes Hyum
+15742 - Bec de Dokachu
+15743 - Fleur de Dodus
+15744 - Pastèque
+15745 - Couvre-chef du Shushkebab
+15746 - Orbe améthyste
+15747 - Orbe céladon
+15748 - Orbe irisé
+15749 - Shusheton
+15750 - Andésite
+15751 - Cape du Shushkebab
+15752 - Sceptre du Shushuverain
+15753 - Crocouteaux
+15754 - Couronne Shushuveraine
+15755 - Anneau Shushuverain
+15756 - Tongues du Shushuverain
+15757 - Le Dorado
+15759 - Éclat de Dofushu
+15760 - Gaufrette Dorée
+15761 - Ailes d'oiseau panées
+15762 - Viande d'Oiseau Conservée ***
+15763 - Viande d'Oiseau ***
+15770 - Nowel
+15771 - Ornement légende
+15772 - Ornement diamant
+15773 - Ornement cristal
+15774 - Ornement or
+15775 - Ornement argent
+15776 - Ornement bronze
+15777 - Elixir d'Ascension
+15778 - Potion accélèro-cervo
+15779 - Tige de plante solide
+15780 - Tige de plante solide
+15781 - Tige de plante solide
+15782 - Tige de plante solide
+15783 - Transformation en crocodaille
+15784 - Porte-Bonheur du Roi Skaille
+15785 - Cape du Roi Skaille
+15786 - Scalp du Roi Skaille
+15788 - Sandales de Mazin Lyn
+15789 - Cape de cérémoniale de Mazin Lyn
+15790 - Masque de Mazin Lyn
+15791 - Dagues Sacrificielles
+15792 - Bottes de Meno
+15793 - Cape de Meno
+15794 - Casque de Meno
+15795 - Bouclier Hirsute
+15796 - Cape Hirsute
+15797 - Casque Hirsute
+15798 - Statuette crocodaille
+15799 - Racoune
+15800 - Fantôme de Racoune
+15801 - Certificat de mise en chanil : Racoune
+15802 - Hormone de Racoune
+15803 - Potion d'Amélioration de Racoune
+15804 - Transformation en crocodaille
+15805 - Arakne suspicieuse
+15806 - Potion de communication rapide
+15807 - Ambre Shushesque
+15808 - Crâne poussiéreux
+15809 - Couteau sacrificiel
+15810 - Petit morceau d'arkaillou
+15811 - Broche de Mazin Lyn
+15812 - Potion très odorante
+15813 - Carte de Crocuzko
+15814 - Morceaux de voile
+15815 - {Quête "Les méandres de la bensine" (1500) terminée}
+15816 - Fiole de la bensine
+15818 - Virilité de Dodus
+15819 - Odeur répugnante
+15820 - Psychotique
+15821 - {Quête "Les méandres de la bensine" (1500) terminée + Dialogue Mucane déjà vu}
+15822 - Corde sortie
+15823 - Saponnet de Nowel
+15824 - Retry TOA
+15825 - Colorant Verdâtre
+15826 - Colère de Bolgrot
+15827 - Parchemin d'Appellation: Grimpeur de Légende
+15828 - Parchemin d'Appellation: Grimpeur de Diamant
+15829 - Parchemin d'Appellation: Grimpeur de Cristal
+15830 - Casque du Braconnier
+15831 - Anneau du Braconnier
+15832 - Bottes du Braconnier
+15834 - Diadème de l'Alpiniste
+15835 - Kometh
+15836 - Fantôme de Kometh
+15837 - Certificat de mise en chanil : Kometh
+15838 - Hormone de Kometh
+15839 - Potion d'Amélioration de Kometh
+15840 - Mandrog
+15841 - Fantôme de Mandrog
+15842 - Certificat de mise en chanil : Mandrog
+15843 - Hormone de Mandrog
+15844 - Potion d'Amélioration de Mandrog
+15845 - Siroko
+15846 - Fantôme de Siroko
+15847 - Certificat de mise en chanil : Siroko
+15850 - {Afficher Ul'khan sur la map 50bis de la TOA}
+15851 - Transformation en Cadob
+15852 - Essence de Nowel
+15853 - Lot d'Essences de Nowel
+15854 - Valet de cœur
+15855 - Cape du Crokant
+15856 - Coiffe Crokante
+15857 - Crokanture
+15860 - Sachet d'Oignons
+15863 - Sachet de Cerises
+15864 - Sachet de Citrons
+15865 - Sachet de Feuilles de Salace
+15867 - Sachet de Poivre
+15868 - Sachet de Poudre de Perlinpainpain
+15870 - {Dialogue bonus Laura Soho}
+15871 - Sachet de Résine
+15872 - Sachet de Sel
+15873 - Tonneau d'Eau Potable
+15876 - Tonneau de Sang Infecté
+15878 - Parchemin d'Appellation: Étoile montante
+15879 - Parchemin d'Appellation: L'As des Astres
+15880 - Bouclier du Champion 649
+15881 - Héros Astral
+15882 - Parchemin d'Appellation: Grimpeur de Légende
+15883 - Parchemin d'Appellation: Grimpeur de Diamant
+15884 - Parchemin d'Appellation: Grimpeur de Cristal
+15885 - Œil de Kailleu
+15886 - Ecaille de Kailleu
+15887 - Peau de Kailleu
+15888 - Dent de Kailleu
+15889 - Sachet de Graisse gélatineuse
+15891 - Morceau de parchemin
+15892 - Morceau de parchemin
+15893 - Morceau de parchemin
+15894 - Morceau de parchemin
+15895 - Morceau de parchemin
+15896 - Histoire complète du Pèlerin du savoir
+15898 - Marque-page de Bonta
+15899 - Marque-page de Brâkmar
+15900 - Marque-page de Sufokia
+15901 - Marque-page de Pandala
+15902 - Marque-page du Mont Nésélite
+15903 - Marque-page d'Amakna
+15906 - Transformation en Lieutnimb
+15908 - Bouclier de la Femme Merveilleuse
+15909 - Bouclier Dragombre
+15910 - Cape Dragombre
+15911 - Casque Dragombre
+15912 - Sakronique
+15913 - Pavoikronique
+15914 - Caskronique
+15915 - Dehluge
+15916 - Fantôme de Dehluge
+15920 - Brûlih
+15921 - Fantôme de Brûlih
+15935 - Noxine
+15936 - Fantôme de Noxine
+15937 - Certificat de mise en chanil : Noxine
+15938 - Hormone de Noxine
+15939 - Potion d'Amélioration de Noxine
+15940 - Cube
+15945 - Tanuk
+15950 - Dracolyte
+15955 - Minikrone
+15960 - Fouxar
+15965 - Kompost
+15966 - Fantôme de Kompost
+15970 - Marque-page du Krosmoz
+15971 - Parchemin d'Appellation: Pèlerin du savoir
+15972 - Cadeau littéraire
+15973 - Anomalies
+15974 - Potion de la Mage Upichu
+15975 - Araknas
+15976 - Encens d'Orado
+15977 - Encens d'Orado utilisé
+15978 - Encens utilisé
+15979 - Encens utilisé
+15980 - Encens utilisé
+15981 - Encens utilisé
+15982 - Encens utilisé
+15983 - Encens utilisé
+15984 - Encens utilisé
+15985 - Encens utilisé
+15986 - Encens utilisé
+15987 - Encens utilisé
+15988 - Encens utilisé
+15989 - Encens utilisé
+15990 - Encens utilisé
+15991 - Encens utilisé
+15992 - Encens utilisé
+15993 - Encens utilisé
+15994 - Encens utilisé
+15995 - Encens utilisé
+15996 - Encens utilisé
+15997 - Encens utilisé
+15998 - Encens utilisé
+15999 - Encens utilisé
+16000 - Encens utilisé
+16001 - Encens utilisé
+16002 - Encens utilisé
+16003 - Encens utilisé
+16004 - Médaillon de Zao
+16005 - Couteau sacrificiel de Zao
+16006 - Sang frais d'Orado
+16007 - Poche sanguine
+16008 - Dofus des Glaces intemporel
+16009 - Chaînes en arkaillou
+16010 - Arkaillou "emprunté" à la Basse-Forge
+16011 - Plume de Crocoplumes
+16012 - Clef de la Pyramide du Roi Skaille
+16013 - Domoizelle
+16014 - Ali Grothor
+16015 - Croc du Roi Skaille
+16016 - Masque du Bandit Spectral
+16017 - Bottes du Bandit Spectral
+16018 - Alliance du Bandit Spectral
+16019 - Masque du Pilleur
+16020 - Anneau du Pilleur
+16021 - Potion de renommage d'alliance
+16022 - Bottes Ruand
+16023 - Groin-groin porte bonheur
+16024 - Cape Phorreur
+16025 - Ceinture Phorreur
+16026 - Masque des fonds marins
+16027 - Bracelet des fonds marins
+16028 - Sandales des fonds marins
+16029 - Bouclier trophée du Korriandre
+16030 - Collier des Abîmes
+16031 - Harpelle
+16032 - Menoture
+16034 - Poudre d'anomalie temporelle
+16035 - Sceptre du Roi Allister
+16036 - Kidibonnet
+16037 - Viscères du Roi Skaille
+16038 - Peau sale du Roi Skaille
+16039 - Serpiplume apprivoisé
+16040 - Fantôme de Serpiplume apprivoisé
+16041 - Certificat de mise en chanil : Serpiplume apprivoisé
+16042 - Hormone de Serpiplume apprivoisé
+16043 - Potion d'Amélioration de Serpiplume apprivoisé
+16044 - Cape Ratique
+16045 - Piraniak
+16046 - Échantillon de la fontaine de jouvence
+16047 - Histoire de la fontaine de jouvence
+16048 - Piraniak vidé
+16049 - Piraniak vapeur
+16050 - Sac de Piraniaks
+16051 - Amitié du Korriandre
+16052 - Hostilité du Korriandre
+16053 - En quête d'immortalité - Volume 3
+16054 - Collier Kléctik
+16055 - Viande de Crocodaille **
+16056 - Viande de Crocodaille Conservée **
+16057 - Entrecôte de Crocodaille **
+16058 - Entrecôte de Crocodaille ***
+16059 - Viande de Crocodaille Conservée ***
+16060 - Viande de Crocodaille ***
+16061 - Coffret
+16062 - Cape des Justiciers
+16063 - Potion de jouvence
+16066 - Potion de jouvence
+16067 - Kokiroule
+16068 - Fantôme de Kokiroule
+16069 - Certificat de mise en chanil : Kokiroule
+16070 - Hormone de Kokiroule
+16071 - Potion d'Amélioration de Kokiroule
+16072 - Malédiction du Korriandre
+16073 - Boîte d'Epsilon
+16075 - Parchemin d'Appellation: Pas de rats, pas de chocolat
+16076 - Ami d'autrefois
+16077 - Ennemi d'autrefois
+16080 - Chanter
+16081 - Dragombre
+16083 - Matelot averti
+16084 - Matelot averti
+16085 - Matelot averti
+16086 - Matelot averti
+16087 - Matelot averti
+16088 - Bout de corde
+16089 - Rongeur du navire
+16102 - Rouage de l'infini
+16104 - Fragment temporel bleu instable
+16106 - Fragment temporel jaune
+16108 - Fragment temporel vert stable
+16110 - Fragment temporel rouge instable
+16118 - Kikroasse
+16119 - Casque Psychokinèse
+16122 - Cape de la Crowneille
+16123 - Bottes Péremptoires
+16124 - Ceinture Abdominable
+16125 - Marteau Submergé
+16127 - Coiffe Abyssale
+16129 - Cape indescriptible
+16130 - Casque de Craquemouflage
+16131 - Amulette de l'indicible
+16132 - Bottes de Craquemouflage
+16133 - Bouclier Taverne
+16134 - Sangligli
+16135 - Bouclier du Rivage
+16136 - Mocassins Poilus
+16137 - Bouclier Pliable
+16138 - Dent de Gligli
+16139 - Ftalmo
+16140 - Masque de la Crowneille
+16141 - Bouclier du Craqueleur
+16142 - Amulette de la Crowneille
+16143 - Bouclier Expérimental
+16144 - Bouclier Bestial
+16145 - Bouclier du Bawbawe
+16146 - Bouclier Boisé
+16147 - Bouclier Pandawa
+16148 - Bouclier du Corbac
+16149 - Bouclier de Bowisse
+16150 - Pestoclier
+16151 - Bouclier Abraknyde
+16152 - Bouclier Plume
+16153 - Kloume
+16154 - Bouclier Fleuri
+16155 - Bouclier Aerdala
+16156 - Bouclier Duveteux
+16157 - Bouclier Terrdala
+16158 - Bouclier de la Canopée
+16159 - Le Karde Coeur
+16160 - Bouclier Bouillonnant
+16161 - Bouclier Fi'Squale
+16162 - Bouclier Givrefoux
+16163 - Bouclier Feudala
+16164 - Bouclier Fongique
+16165 - Bouclier du Bûcheron
+16166 - Bouclier Kikaï
+16167 - Derma Tho
+16168 - Bouclier Clairvoyant
+16169 - Bouclier du Capitaine
+16170 - Bouclier du Transporteur
+16171 - Bouclier du Mont Kipou
+16173 - Cadran de Feu
+16175 - Cadran d'Eau
+16176 - Phorror
+16177 - Coupe de Dragokart
+16179 - Bouclier Volant
+16180 - Chapeau de Tournoyé
+16181 - Cadran de Terre
+16182 - Cape de Crânonier
+16183 - Cadran d'Air
+16185 - Bouclier du Chasseur de Trooll
+16187 - Bouclier Viscéral
+16188 - Bottes Honyme
+16189 - Bouclier du Captain Amakna
+16191 - Bouclier de Sidimote
+16193 - Bouclier Ventaille
+16206 - Coiffe de l'Orfélin
+16208 - Ceinture de l'Orfélin
+16210 - Amulette de l'Orfélin
+16218 - Bouclier Kokopepit
+16220 - Porclier
+16222 - Bouclier Kolossal
+16224 - Bouclier de la Tannerie
+16226 - Bouclier de la Congère
+16228 - Bouclier du Kailleu
+16232 - Langue de Craquelope
+16234 - Œil de Craquelourd
+16238 - Cheveux d'alhyène
+16242 - Canine de Félygiène
+16256 - Peau de Kanig
+16258 - Tignasse de Kanihilan
+16262 - Crinière d'Orfélin
+16268 - Fragment de Zombibé
+16274 - Aquarakne de Crânonier
+16276 - Protection de Funespadon
+16278 - Bout d'Armure de Macrab
+16282 - Pointe de Lance de Tournoyé
+16284 - Cuir de Gliglitch
+16288 - Sabot de Gliglidromel
+16290 - Défense de Gliglicérin
+16292 - Étoffe de Gliglimuable
+16294 - Estomac de Gligli
+16304 - Scalp de Bizarbwork
+16306 - Peau de Krambwork
+16310 - Oreille de Médibwork
+16312 - Botte usée de Bwork
+16314 - Cuir violet de Mégabwork
+16318 - Matelot averti
+16320 - Matelot joyeux
+16322 - Matelot joyeux
+16324 - Matelot joyeux
+16326 - Matelot joyeux
+16328 - Matelot joyeux
+16334 - Épée du Bandit Spectral
+16338 - Lance corrompue
+16422 - Bottes de Dremoan
+16424 - Bottes Nécrotiques
+16430 - Chapeau de Dremoan
+16432 - Cape de Dremoan
+16434 - Cape nécrotique
+16444 - Amulette nécrotique
+16448 - Amulette de Gadoo
+16508 - Bottes Cloutées de Bworkékorall
+16522 - Rouage de l'infini
+16528 - Casque Cornu de Bworkékorall
+16540 - Ceinture de Bworkékorall
+16552 - Parchemin d'Appellation: Gladiateur
+16554 - Parchemin d'Appellation: Azhassin
+16556 - Jeu de fléchettes vaudou
+16558 - Serpillère
+16560 - Poudre à canon
+16562 - Sueur de pirate
+16564 - Jus de chaussette du capitaine Le Chouque
+16566 - Larmes salées
+16568 - Transformation en pirate
+16570 - Bouillon assaisonné au sel
+16572 - Moyenne Compensabox
+16574 - Parchemin d'attitude Ballistique
+16576 - Parchemin d'attitude Chanceux
+16578 - Parchemin d'attitude Explosif
+16580 - Parchemin d'attitude Indestructible
+16582 - Parchemin d'attitude Selfie
+16584 - Parchemin d'attitude Vaporeux
+16586 - Parchemin d'attitude Rythme
+16588 - Parchemin d'attitude Ola
+16590 - Casque Légionnaire
+16592 - Cape Légionnaire
+16594 - Bouclier Légionnaire
+16596 - Capuche Az'Hassin
+16598 - Cape Az'Hassin
+16600 - Bouclier Az'Hassin
+16602 - Dagues Az'Hassin
+16604 - Bouclier Zadioc
+16606 - Cape Zadioc
+16608 - Coiffe Zadioc
+16610 - Capuche de l'Œil Putride
+16612 - Cape de l'Œil Putride
+16614 - Capuche de l'Œil Attentif
+16616 - Cape de l'Œil Attentif
+16618 - Bouclier du Forban
+16620 - Cape du Forban
+16622 - Chapeau du Forban
+16624 - Bouclier Malicieux
+16626 - Chapeau Malicieux
+16628 - Cape Malicieuse
+16630 - Cadran Fondu
+16632 - Bouclier Mandibulaire
+16634 - Cape Mandibulaire
+16636 - Casque Mandibulaire
+16638 - Arc Mandibulaire
+16640 - Écunox
+16642 - Capox
+16644 - Masquox
+16646 - Arcox
+16648 - Couwonne du Wa Dunow
+16650 - Diadème Panash
+16652 - Cape Panash
+16654 - Bouclier Panash
+16656 - Bouclier à Gousset
+16658 - Queue d'Épi
+16660 - Chapeau la Forme
+16662 - Cape du Démon Solaire
+16664 - Masque du Démon Solaire
+16666 - Bonavent
+16668 - Bourse de Doplons
+16682 - Karne
+16684 - Bouflux
+16686 - Bouftor
+16688 - Tarentina
+16690 - Groxine
+16692 - Phorrakna
+16694 - Torvil
+16696 - Phorrilax
+16698 - Minowang
+16700 - Salar
+16702 - Dakal
+16704 - Rafal
+16706 - Brial
+16708 - Mikhal
+16710 - Kourial
+16712 - Pykagla
+16714 - Pikip
+16716 - Storf
+16718 - Proto-Noxine
+16720 - Dragaï
+16722 - Cadob'I
+16724 - Cadob'Hermann
+16726 - Cadob'Lik
+16728 - Cadob'Struktion
+16730 - Essence des mers
+16732 - Pain de seigle pour FatBob
+16734 - Sardine a l'huile pour FatBob
+16736 - Jambon cuit pour FatBob
+16738 - Chacha égaré
+16740 - Bouillon assaisonné à la poudre à canon
+16742 - Eau fraîche
+16744 - Repos du guerrier
+16766 - Crâne de victime d'un rituel Shushu
+16768 - Page de musique déchirée
+16770 - Rouage de l'infini
+16772 - Débris de coque de bateau
+16774 - Page de musique reconstituée
+16776 - Page de musique déchiffrée
+16778 - Parchemin d'Appellation: Témoin du Shushu Ross
+16780 - Parchemin d'Appellation: Requiem des Quatre Saisons
+16782 - Parchemin d'Appellation: Oraison des Quatre Saisons
+16784 - Danse macabre
+16792 - Essence de Nelween
+16794 - Essence de Colonimb
+16796 - Essence de Wa Wobot
+16798 - Essence de Moon
+16800 - Essence de Koulosse
+16802 - Essence de Meulou
+16804 - Essence de Maître Corbac
+16806 - Essence de Rat Blanc
+16808 - Essence de Rat Noir
+16810 - Essence de Rasboul
+16812 - Essence de Minotoror
+16814 - Essence de Royalmouth
+16816 - Essence de Maître Pandore
+16818 - Essence de Tofu Royal
+16820 - Essence de Skeunk
+16822 - Essence de Tanukouï San
+16824 - Essence de Péki Péki
+16826 - Essence de Tynril
+16828 - Essence de Mansot Royal
+16830 - Essence de Sphincter Cell
+16832 - Essence de Minotot
+16834 - Essence de Tengu Givrefoux
+16836 - Essence de Roi Skaille
+16838 - Essence de Korriandre
+16840 - Essence de Kralamoure
+16842 - Essence de Kolosso
+16844 - Essence de Missiz Frizz
+16846 - Essence de Sylargh
+16848 - Essence de Klime
+16850 - Essence de Nileza
+16852 - Essence de Comte Harebourg
+16862 - Malédiction de Septange
+16864 - Dragombre
+16868 - Marteau de la ville d'Astrub
+16870 - Planches de bois de la ville d'Astrub
+16872 - Corde de la ville d'Astrub
+16874 - Fragment temporel rouge stable
+16876 - Fragment temporel jaune stable
+16878 - Fragment temporel bleu stable
+16880 - Illusion Nimbos
+16882 - Ère de Wakfu
+16884 - Ère du Wakfu
+16886 - Bon gratuit pour le relais de diligence
+16888 - Saponnet de Nowel
+16890 - Rune de fortification mineure
+16892 - Rune de fortification moyenne
+16894 - Rune de fortification majeure
+16896 - Dragoune en chocolat
+16898 - Kirino
+16900 - Minibora
+16902 - Dragziel
+16904 - Transformation en Torréfactueur
+16906 - Essence de Pwak
+16908 - Sangrouïc
+16910 - Egnos
+16912 - Hibora
+16914 - Tanuklier
+16916 - Bouclier du Kao
+16918 - Chapeau Tifour
+16920 - Fournheaume
+16922 - Pwâkoiffe
+16924 - Sac Jarre-Jarre
+16926 - Pwâkape
+16928 - Pwâklier
+16930 - Bandeau du sauvage
+16932 - Capatte du Sauvage
+16934 - Bouclier du sauvage
+16936 - Bouclier onirique
+16938 - Ailes Oniriques
+16940 - Casque Onirique
+16942 - Capuche du dernier espoir
+16944 - Cape du dernier espoir
+16946 - Bouclier du dernier espoir
+16948 - Bouclirêve fantastique
+16950 - Cape Mélodieuse
+16952 - Bouclirêve Onirique
+16954 - Bouclirêve Imaginaire
+16956 - Bouclirêve Brumeux
+16958 - Coiffengrenage
+16960 - Capengrenage
+16962 - Bouclengrenage
+16964 - Engrenache
+16966 - Bouclier trophée de Crocabulia
+16968 - Bouclier trophée du Nelween
+16970 - Bouclier trophée du Péki Péki
+16972 - Bouclier trophée du Bouftou Royal
+16974 - Bouclier trophée du Daïgoro
+16976 - Shuclier
+16978 - Bouclier de chantier
+16980 - Cape de chantier
+16982 - Cône de chantier
+16984 - Marteau de chantier
+16986 - Bouclier du Batailleur Vhed'Eu
+16988 - Cœur brisé
+16990 - Magmatique
+16992 - J'ai faim
+16994 - Trop mangé
+16996 - Saut de wapin
+16998 - Crocabulia
+17000 - Rêve
+17002 - Sauvage
+17004 - Dernier Espoir
+17006 - Agiter ses cheveux
+17008 - Danse du Trool
+17010 - Signe du Shushu
+17012 - Guitare électromagique
+17014 - Intemporel
+17016 - Scintillant
+17018 - Veinard
+17020 - Corruption
+17022 - Onirique
+17024 - Engrenages
+17026 - Épaulières du dernier espoir
+17028 - Pwâk

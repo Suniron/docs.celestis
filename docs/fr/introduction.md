@@ -49,10 +49,10 @@ Ce principe s'applique à toutes les variables utilisées dans un script.
 
 <h2 id="fonctions">Fonctions</h2>
 
-Les fonctions sont utilisées pour combiner des actions dans une même sequence. Une fonction doit toujours être precedée de `async function*`.
+Les fonctions sont utilisées pour combiner des actions dans une même sequence. Une fonction doit toujours être precedée de `function*`.
 
 ```js
-async function* potionRappel() {
+function* potionRappel() {
   yield* api.inventory.useItem(548);
   yield* api.waitMapChange();
 }
@@ -132,7 +132,7 @@ api.config = {
   MANDATORY_MONSTERS: []
 };
 
-async function* potionRappel() {
+function* potionRappel() {
   yield* api.inventory.useItem(548);
   yield* api.waitMapChange();
 }
