@@ -54,7 +54,7 @@ Retourne true si le personnage est en vie, sinon retourne false.
 **Exemple:**
 
 ```js
-if (character.isAlive()) {
+if (api.character.isAlive()) {
   // Le personnage est en vie.
 }
 ```
@@ -68,7 +68,7 @@ Retourne true si le personnage est une tombe, sinon retourne false.
 **Exemple:**
 
 ```js
-if (character.isTombstone()) {
+if (api.character.isTombstone()) {
   // Le personnage est une tombe.
 }
 ```
@@ -82,7 +82,7 @@ Retourne true si le personnage est un fantôme, sinon retourne false.
 **Exemple:**
 
 ```js
-if (character.isPhantom()) {
+if (api.character.isPhantom()) {
   // Le personnage est un fantome.
 }
 ```
@@ -98,7 +98,7 @@ Retourne le nom du personnage.
 **Exemple:**
 
 ```js
-character.name();
+api.character.name();
 ```
 
 <hr>
@@ -112,7 +112,7 @@ Retourne le niveau du personnage.
 **Exemple:**
 
 ```js
-character.level();
+api.character.level();
 ```
 
 <hr>
@@ -124,7 +124,7 @@ Retourne true si le personnage est un male, false si c'est une femelle.
 **Exemple:**
 
 ```js
-character.sex();
+api.character.sex();
 ```
 
 <hr>
@@ -136,7 +136,7 @@ Retourne l'id de la classe du personnage
 **Exemple:**
 
 ```js
-character.breed();
+api.character.breed();
 ```
 
 <hr>
@@ -150,7 +150,7 @@ Retourne les points de vie du personnage.
 **Exemple:**
 
 ```js
-character.lifePoints();
+api.character.lifePoints();
 ```
 
 <hr>
@@ -164,7 +164,7 @@ Retourne les points de vie maximum du personnage.
 **Exemple:**
 
 ```js
-character.maxLifePoints();
+api.character.maxLifePoints();
 ```
 
 <hr>
@@ -178,7 +178,7 @@ Retourne le pourcentage de vie du personnage.
 **Exemple:**
 
 ```js
-character.lifePointsP();
+api.character.lifePointsP();
 ```
 
 <hr>
@@ -192,7 +192,7 @@ Retourne l’expérience du personnage.
 **Exemple:**
 
 ```js
-character.experience();
+api.character.experience();
 ```
 
 <hr>
@@ -206,7 +206,7 @@ Retourne les points d’énergie du personnage.
 **Exemple:**
 
 ```js
-character.energyPoints();
+api.character.energyPoints();
 ```
 
 <hr>
@@ -220,7 +220,7 @@ Retourne les points d’énergie maximum du personnage.
 **Exemple:**
 
 ```js
-character.maxEnergyPoints();
+api.character.maxEnergyPoints();
 ```
 
 <hr>
@@ -234,7 +234,7 @@ Retourne le pourcentage d'energie du personnage.
 **Exemple:**
 
 ```js
-character.energyPoints();
+api.character.energyPoints();
 ```
 
 <hr>
@@ -248,7 +248,7 @@ Retourne le nombre de kamas que possède le personnage.
 **Exemple:**
 
 ```js
-character.kamas();
+api.character.kamas();
 ```
 
 <hr>
@@ -284,7 +284,7 @@ Permet au personnage de s’asseoir.
 **Exemple:**
 
 ```js
-character.sit();
+api.character.sit();
 ```
 
 ## api.character.freeSoul()
@@ -296,8 +296,8 @@ Retourne true si le personnage a réussi à libérer son âme, sinon retourne fa
 **Exemple:**
 
 ```js
-if (character.isTombstone()) {
-  if (character.freeSoul()) {
+if (api.character.isTombstone()) {
+  if (api.character.freeSoul()) {
     // Si le personnage est une tombe, alors libère son âme.
     // L'âme a été libérée.
   } else {
