@@ -23,6 +23,10 @@ body {
 .markdown-body table tr {
   background-color: #2f3136;
 }
+.markdown-body table tr:nth-child(2n) {
+  background-color: #736772;
+}
+
 a {
   color: #ca2f49;
 }
@@ -37,6 +41,7 @@ a {
 .highlight {
   background-color: #f8f8f800;
 }
+
 /*
 PINK_MARS_40: "#F37990",
 PINK_MARS_50: "#E24964",
