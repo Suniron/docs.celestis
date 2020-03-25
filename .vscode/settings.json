@@ -9,5 +9,6 @@
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.rulers": [80, 120]
+  "editor.rulers": [80, 120],
+  "markdown.styles": ["docs/assets/css/style.scss"]
 }

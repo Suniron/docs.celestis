@@ -1,14 +1,35 @@
----
----
+/*
+PINK_MARS_40: "#F37990",
+PINK_MARS_50: "#E24964",
+PINK_MARS_60: "#CA2F49",
+ORANGE_SUN_40: "#F5B894",
+ORANGE_SUN_50: "#FD935A",
+ORANGE_SUN_60: "#E96F4E",
+BROWN_DUSK_40: "#736772", -> Background 3
+BROWN_DUSK_50: "#4F414E", -> Background primary (1)
+BROWN_DUSK_60: "#2C212C"  -> Background secondary (2)
+*/
+
+.unused {
+  color: #f37990;
+  color: #e24964;
+  color: #ca2f49;
+  color: #f5b894;
+  color: #fd935a;
+  color: #e96f4e;
+  color: #736772;
+  color: #4f414e;
+  color: #2c212c;
+}
 
 @import "{{ site.theme }}";
 body {
-  color: #dcddde;
-  background-color: #36393f;
+  color: #f5b894;
+  background-color: #4f414e;
 }
 .markdown-body .highlight pre,
 .markdown-body pre {
-  background-color: #2f3136;
+  background-color: #2c212c;
 }
 .highlight .k,
 .highlight .kv {
@@ -21,10 +42,13 @@ body {
   color: #e74c3c;
 }
 .markdown-body table tr {
-  background-color: #2f3136;
+  background-color: #736772;
+}
+.markdown-body table tr:nth-child(2n) {
+  background-color: ;
 }
 a {
-  color: #0096cf;
+  color: #ca2f49;
 }
 
 .markdown-body hr {
