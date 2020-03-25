@@ -1,3 +1,66 @@
+---
+---
+
+@import "{{ site.theme }}";
+body {
+  color: #dcddde;
+  background-color: #36393f;
+}
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #2f3136;
+}
+.highlight .k,
+.highlight .kv {
+  color: #b58900;
+}
+.highlight .kd {
+  color: #859900;
+}
+.highlight .o {
+  color: #e74c3c;
+}
+.markdown-body table tr {
+  background-color: #2f3136;
+}
+a {
+  color: #0096cf;
+}
+
+.markdown-body hr {
+  background-color: #99aab5;
+}
+
+.markdown-body h1 {
+  border-color: #99aab5;
+}
+.highlight {
+  background-color: #f8f8f800;
+}
+/*
+PINK_MARS_40: "#F37990",
+PINK_MARS_50: "#E24964",
+PINK_MARS_60: "#CA2F49",
+ORANGE_SUN_40: "#F5B894",
+ORANGE_SUN_50: "#FD935A",
+ORANGE_SUN_60: "#E96F4E",
+BROWN_DUSK_40: "#736772", -> Background 3
+BROWN_DUSK_50: "#4F414E", -> Background primary (1)
+BROWN_DUSK_60: "#2C212C"  -> Background secondary (2)
+*/
+/*
+.unused {
+  color: #f37990;
+  color: #e24964;
+  color: #ca2f49;
+  color: #f5b894;
+  color: #fd935a;
+  color: #e96f4e;
+  color: #736772;
+  color: #4f414e;
+  color: #2c212c;
+}
+
 @import "{{ site.theme }}";
 body {
   color: #f5b894;
@@ -37,3 +100,4 @@ a {
 .highlight {
   background-color: #f8f8f800;
 }
+*/
