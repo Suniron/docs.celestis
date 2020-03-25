@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -32,7 +32,7 @@ api.config = {
 Cette configuration définie ce que le bot déposera en banque, ce qu'il récoltera, ce qu'il supprimera, quel monstre il combattra.
 Bien entendu il y a bien d'autres options: [Configuration](configuration.md)
 
-<hr>
+---
 
 <h2 id="variables">Variables</h2>
 
@@ -45,7 +45,7 @@ let maVariable = "Un texte"; // Modifiable plus loin dans le script
 
 Ce principe s'applique à toutes les variables utilisées dans un script.
 
-<hr>
+---
 
 <h2 id="fonctions">Fonctions</h2>
 
@@ -58,7 +58,7 @@ function* potionRappel() {
 }
 ```
 
-<hr>
+---
 
 <h2 id="corps">Corps</h2>
 
@@ -154,4 +154,4 @@ api.bank = [
 Pour qu'un trajet soit fonctionnel et répétitif, il est nécessaire de le boucler. Lorsqu'il se termine sous forme de boucle,
 il le fera sans arrêter puisqu'il est dans un circuit fermé.
 
-<hr>
+---

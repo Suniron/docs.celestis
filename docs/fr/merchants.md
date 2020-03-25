@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -15,7 +15,7 @@
 
 Toutes les fonctions relatives au mode marchand
 
-<hr>
+---
 
 <h2 id="merchantsopen">
   api.merchants.open(<code>cellId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -27,13 +27,13 @@ Ouvre un mode marchand sur la cellule précisée
 yield * api.merchants.open(320); // Ouvre le mode marchand de la cellule 320
 ```
 
-<hr>
+---
 
 ## api.merchants.objectsInShop()
 
 Retourne tous les objets présent dans le mode marchand
 
-<hr>
+---
 
 <h2 id="merchantsbuy">
   api.merchants.buy(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -45,4 +45,4 @@ Achète un objet en quantité demandé dans le mode marchand
 yield * api.merchants.buy(289, 2); // Achète 2 blé dans le mode marchand
 ```
 
-<hr>
+---

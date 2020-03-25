@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -31,7 +31,7 @@
 
 Toutes les fonctions relatives au personnage.
 
-<hr>
+---
 
 <h2 id="characterchange">
   api.character.change(<code>name</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)
@@ -45,7 +45,7 @@ Change de personnage et relance le script (Le personnage doit être sur le même
 yield * api.character.change("Michel"); // Se reconnecte sur le personnage du même serveur qui s'appelle Michel, et relance le script
 ```
 
-<hr>
+---
 
 ## api.character.isAlive()
 
@@ -59,7 +59,7 @@ if (api.character.isAlive()) {
 }
 ```
 
-<hr>
+---
 
 ## api.character.isTombstone()
 
@@ -73,7 +73,7 @@ if (api.character.isTombstone()) {
 }
 ```
 
-<hr>
+---
 
 ## api.character.isPhantom()
 
@@ -87,7 +87,7 @@ if (api.character.isPhantom()) {
 }
 ```
 
-<hr>
+---
 
 ## api.character.name()
 
@@ -101,7 +101,7 @@ Retourne le nom du personnage.
 api.character.name();
 ```
 
-<hr>
+---
 
 ## api.character.level()
 
@@ -115,7 +115,7 @@ Retourne le niveau du personnage.
 api.character.level();
 ```
 
-<hr>
+---
 
 ## api.character.sex()
 
@@ -127,7 +127,7 @@ Retourne true si le personnage est un male, false si c'est une femelle.
 api.character.sex();
 ```
 
-<hr>
+---
 
 ## api.character.breed()
 
@@ -139,7 +139,7 @@ Retourne l'id de la classe du personnage
 api.character.breed();
 ```
 
-<hr>
+---
 
 ## api.character.lifePoints()
 
@@ -153,7 +153,7 @@ Retourne les points de vie du personnage.
 api.character.lifePoints();
 ```
 
-<hr>
+---
 
 ## api.character.maxLifePoints()
 
@@ -167,7 +167,7 @@ Retourne les points de vie maximum du personnage.
 api.character.maxLifePoints();
 ```
 
-<hr>
+---
 
 ## api.character.lifePointsP()
 
@@ -181,7 +181,7 @@ Retourne le pourcentage de vie du personnage.
 api.character.lifePointsP();
 ```
 
-<hr>
+---
 
 ## api.character.experience()
 
@@ -195,7 +195,7 @@ Retourne l’expérience du personnage.
 api.character.experience();
 ```
 
-<hr>
+---
 
 ## api.character.energyPoints()
 
@@ -209,7 +209,7 @@ Retourne les points d’énergie du personnage.
 api.character.energyPoints();
 ```
 
-<hr>
+---
 
 ## api.character.maxEnergyPoints()
 
@@ -223,7 +223,7 @@ Retourne les points d’énergie maximum du personnage.
 api.character.maxEnergyPoints();
 ```
 
-<hr>
+---
 
 ## api.character.energyPointsP()
 
@@ -237,7 +237,7 @@ Retourne le pourcentage d'energie du personnage.
 api.character.energyPoints();
 ```
 
-<hr>
+---
 
 ## api.character.kamas()
 
@@ -251,7 +251,7 @@ Retourne le nombre de kamas que possède le personnage.
 api.character.kamas();
 ```
 
-<hr>
+---
 
 ## api.character.serverId()
 

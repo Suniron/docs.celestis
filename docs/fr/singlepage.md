@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 - [Introduction](introduction.md)
 - [Data](data.md)

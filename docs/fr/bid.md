@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -23,7 +23,7 @@ Toutes les fonctions relatives à l'hotel de vente.
 
 Les lots peuvent etre egaux à 1, 10 ou 100.
 
-<hr>
+---
 
 ## api.bid.startBuying()
 
@@ -35,7 +35,7 @@ Active l'achat dans l'hdv, doit etre executé avant d'acheter des items.
 yield * api.bid.startBuying(); // Active l'achat.
 ```
 
-<hr>
+---
 
 <h2 id="hdv-buy-item">
   api.bid.buyItem(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>lot</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -50,7 +50,7 @@ yield * api.bid.startBuying(); // Active l'achat.
 yield * api.bid.buyItem(423, 10); // Achète 10 Lin.
 ```
 
-<hr>
+---
 
 <h2 id="hdv-get-item-price">
   api.bid.getItemPrice(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>lot</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -66,7 +66,7 @@ Retourne le prix d'un lot d'item en vente.
 const prixBle = await api.bid.getItemPrice(289, 100); // Retourne le prix du lot de 100 blé.
 ```
 
-<hr>
+---
 
 ## api.bid.startSelling()
 
@@ -78,7 +78,7 @@ Active la vente dans l'hotel de vente, doit etre executé avant toutes les fonct
 yield * api.bid.startSelling(); // Active la vente.
 ```
 
-<hr>
+---
 
 ## api.bid.itemsInSaleCount()
 
@@ -92,7 +92,7 @@ Retourne le nombre d'items en vente.
 const itemsInSale = api.bid.itemsInSaleCount();
 ```
 
-<hr>
+---
 
 ## api.bid.getItemsInSale()
 
@@ -123,7 +123,7 @@ Permet de vendre un lot d'un item donné à un prix donné.
 yield * api.bid.sellItem(289, 100, 200); // Vend 100 blé pour 200 kamas.
 ```
 
-<hr>
+---
 
 <h2 id="hdv-edit-item-in-sale-price">
   api.bid.editItemInSalePrice(<code>uid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>newPrice</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -147,7 +147,7 @@ for (const itemInSale of api.bid.getItemsInSale()) {
 
 _Le uid peut etre trouvé dans [getItemsInSale](#bidgetitemsinsale). Il est unique à chaque item (ou lot d'item)._
 
-<hr>
+---
 
 <h2 id="hdv-remove-item-in-sale">
   api.bid.removeItemInSale(<code>uid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)

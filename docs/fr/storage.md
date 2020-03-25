@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -25,7 +25,7 @@ Toutes les fonctions relatives au api.storage.
 
 **Tous les GID sont disponibles dans le fichier [items.txt](https://suniron.github.io/docs.celestis/ids/items.txt).**
 
-<hr>
+---
 
 <h2 id="storage-item-count">
   api.storage.itemCount(<code>gid/uid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -41,7 +41,7 @@ Retourne le nombre d’objets dans l'espace de api.storage.
 const itemCount = api.storage.itemCount(289); // Retourne le nombre de blé présents dans l'inventaire.
 ```
 
-<hr>
+---
 
 ## api.storage.items()
 
@@ -55,7 +55,7 @@ Retourne les items présent dans l'espace de api.storage.
 const items = api.storage.items();
 ```
 
-<hr>
+---
 
 ## api.storage.kamas()
 
@@ -69,7 +69,7 @@ Retourne le nombre de kamas dans l'espace de api.storage.
 const kamas = api.storage.kamas();
 ```
 
-<hr>
+---
 
 <h2 id="storage-item-put">
   api.storage.putItem(<code>gid/uid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -83,7 +83,7 @@ Insère un item donné dans une quantité donnée.
 yield * api.storage.putItem(367, 100); // Insère 100 Oeufs de Tofu dans le coffre.
 ```
 
-<hr>
+---
 
 <h2 id="storage-item-get">
   api.storage.getItem(<code>gid/uid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -97,7 +97,7 @@ Récupère un item donné dans une quantité donnée.
 yield * api.storage.getItem(371, 200); // Récupère 200 Sourcils de Moskito du coffre.
 ```
 
-<hr>
+---
 
 <h2 id="storage-put-kamas">
   api.storage.putKamas(<code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -111,7 +111,7 @@ Insère des kamas dans le api.storage.
 yield * api.storage.putKamas(1000000000); // Insère 1 milliard de kamas dans le coffre. (Oui, j'suis riche :))
 ```
 
-<hr>
+---
 
 <h2 id="storage-get-kamas">
   api.storage.getKamas(<code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -125,7 +125,7 @@ Récupère des kamas dans le api.storage.
 yield * api.storage.getKamas(1000000000); // Récupère 1 milliard de kamas du coffre. (Toujours aussi riche :o)
 ```
 
-<hr>
+---
 
 ## api.storage.putAllItems()
 
@@ -137,7 +137,7 @@ Insère tous les items dans le api.storage.
 yield * api.storage.putAllItems(); // Insère tous les items
 ```
 
-<hr>
+---
 
 ## api.storage.getAllItems()
 
@@ -149,7 +149,7 @@ Récupère tous les items dans le api.storage.
 yield * api.storage.getAllItems(); // Récupère tous les items.
 ```
 
-<hr>
+---
 
 ## api.storage.putExistingItems()
 
@@ -161,7 +161,7 @@ Insère tous les items déjà existants dans le api.storage.
 yield * api.storage.putExistingItems(); // Insère tous les items déjà existants dans le api.storage.
 ```
 
-<hr>
+---
 
 ## api.storage.getExistingItems()
 

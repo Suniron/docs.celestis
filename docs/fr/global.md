@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -67,7 +67,7 @@ if (api.isInDialog()) {
 }
 ```
 
-<hr>
+---
 
 <h2 id="printmessage">api.printMessage(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
 
@@ -79,8 +79,7 @@ Affiche un message dans la console.
 api.printMessage("Ceci est un message.");
 ```
 
-
-<hr>
+---
 
 <h2 id="printnotify">printNotify(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
 
@@ -94,7 +93,7 @@ Envois une notification de bureau + Affiche un message dans la console.
 printNotify("Ceci est un message.");
 ```
 
-<hr>
+---
 
 <h2 id="printtelegram">api.printTelegram(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
 
@@ -106,7 +105,7 @@ Envois une notification Telegram + Affiche un message dans la console.
 api.printTelegram("Ceci est un message.");
 ```
 
-<hr>
+---
 
 <h2 id="printdebug">printDebug(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
 
@@ -120,7 +119,7 @@ Affiche un message de debug dans la console.
 printDebug("Ceci est un message de debug.");
 ```
 
-<hr>
+---
 
 <h2 id="printsuccess">printSuccess(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
 
@@ -134,7 +133,7 @@ Affiche un succès dans la console.
 printSuccess("Ceci est un message de succès.");
 ```
 
-<hr>
+---
 
 <h2 id="printerror">printError(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
 
@@ -148,7 +147,7 @@ Affiche une erreur dans la console.
 printError("Ceci est un message d'erreur");
 ```
 
-<hr>
+---
 
 <h2 id="doneScript">api.doneScript(<code>reason?</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>, <code>disconnect?</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Boolean_type">boolean</a>)</h2>
 
@@ -164,7 +163,7 @@ api.doneScript("J'ai fini", true); // Arrête le script en disant "J'ai fini" et
 
 PS: Si vous aviez la planification d'activé le compte se déconnecte bien et n'essaye pas de se reconnecter instantanément, il va simplement repasser votre heure sur désactivé, et le reactivé à sa prochaine plage de connexion.
 
-<hr>
+---
 
 <h2 id="delay">api.delay(<code>ms</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)</h2>
 
@@ -176,7 +175,7 @@ Fait une pause dans le script.
 yield * api.delay(3000); // Fait une pause de 3000ms (3 secondes).
 ```
 
-<hr>
+---
 
 ## api.leaveDialog()
 
@@ -191,4 +190,4 @@ if (api.isInDialog()) {
 }
 ```
 
-<hr>
+---

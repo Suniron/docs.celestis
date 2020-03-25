@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -44,7 +44,7 @@ Toutes les fonctions relatives aux personnages non-joueurs.
 </tbody>
 </table>
 
-<hr>
+---
 
 <h2 id="npc-npc-bank">
   api.npc.npcBank(<code>npcId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>replyId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -58,7 +58,7 @@ Permet d’ouvrir la banque.
 yield * api.npc.npcBank(-1, -1); // Choisi le premier npc de la map et choisi la première réponse.
 ```
 
-<hr>
+---
 
 <h2 id="npc-npc">
   api.npc.npc(<code>npcId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>actionIndex</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -72,7 +72,7 @@ Permet de parler à un PNJ et de sélectionner l'action à utiliser.
 yield * api.npc.npc(-1, 1); // Choisi le premier npc de la map et choisi la première action
 ```
 
-<hr>
+---
 
 <h2 id="npc-reply">
   api.npc.reply(<code>replyId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -86,7 +86,7 @@ Permet de repondre à un PNJ.
 yield * api.npc.reply(-1); // Choisi la première réponse.
 ```
 
-<hr>
+---
 
 <h2 id="npc-buy">
   api.npc.buy(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -100,7 +100,7 @@ Permet d'acheter un item à un PNJ.
 yield * api.npc.buy(289, 10); // Achète 10 blé
 ```
 
-<hr>
+---
 
 <h2 id="npc-sell">
   api.npc.sell(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)

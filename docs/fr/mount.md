@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -21,19 +21,19 @@
 
 Toutes les fonctions relatives à la monture du personnage.
 
-<hr>
+---
 
 ## api.mount.isRiding()
 
 Retourne true si le personnage est sur la monture, sinon retourne false.
 
-<hr>
+---
 
 ## api.mount.hasMount()
 
 Retourne true si le personnage possède une monture, sinon retourne false.
 
-<hr>
+---
 
 ## api.mount.currentRatio()
 
@@ -41,7 +41,7 @@ Retourne true si le personnage possède une monture, sinon retourne false.
 
 Retourne le pourcentage d'experience donnée à la monture.
 
-<hr>
+---
 
 ## api.mount.id()
 
@@ -49,7 +49,7 @@ Retourne le pourcentage d'experience donnée à la monture.
 
 Retourne l'id de la monture.
 
-<hr>
+---
 
 ## api.mount.sex()
 
@@ -57,7 +57,7 @@ Retourne l'id de la monture.
 
 Retourne le sexe de la monture (true = femelle / false = male)
 
-<hr>
+---
 
 ## api.mount.currentLevel()
 
@@ -65,7 +65,7 @@ Retourne le sexe de la monture (true = femelle / false = male)
 
 Retourne le level de la monture.
 
-<hr>
+---
 
 <h2 id="mount-toggle-riding">
   api.mount.toggleRiding()
@@ -85,7 +85,7 @@ if (!mount.isRiding()) {
 _Astuce : Une fois la fonction appelée, il faut entre une seconde et une seconde et-demi pour que l’action soit effective.
 Si vous devez obligatoirement être sûr d’être monté/descendu de la monture pour continuer, vous pouvez utiliser delay(2000) après toggleRiding()._
 
-<hr>
+---
 
 <h2 id="mount-set-ratio">
   api.mount.setRatio(<code>ratio</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -99,7 +99,7 @@ Permet de modifier le pourcentage d'experience donnée à la monture.
 yield * api.mount.setRatio(90);
 ```
 
-<hr>
+---
 
 <h2 id="mount-set-name">
   api.mount.setName(<code>name</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)
@@ -113,4 +113,4 @@ Permet de modifier le nom de la monture.
 yield * api.mount.setName("Jacquie");
 ```
 
-<hr>
+---

@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -35,7 +35,7 @@ Toutes les fonctions relatives aux maps.
 
 Les cellId vont de 0 à 559, vous pouvez les afficher dans l'onglet Map de Celestis.
 
-<hr>
+---
 
 <h2 id="map-change-map">
   api.changeMap(<code>where</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)
@@ -54,7 +54,7 @@ Permet de changer de carte. Les directions suivantes sont acceptées:
 yield * api.changeMap("right"); // Change de map vers la droite
 ```
 
-<hr>
+---
 
 <h2 id="map-move-to-cell">
   api.moveToCell(<code>cellId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -68,7 +68,7 @@ Permet de se déplacer sur une cellule. Les cellId vont de 0 à 559, vous pouvez
 yield * api.moveToCell(200); // Se déplace sur la cellulle 200
 ```
 
-<hr>
+---
 
 <h2 id="map-use-by-id">
   api.useById(<code>elementId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, skillInstanceUid?: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -82,7 +82,7 @@ Permet d’utiliser une action d’un élement interactif à partir de son ident
 yield * api.useById(1545));
 ```
 
-<hr>
+---
 
 <h2 id="map-use">
   api.use(<code>elementCellId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, skillInstanceUid?: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -96,7 +96,7 @@ Permet d’utiliser une action d’un élement interactif sur une cellule donné
 yield * api.use(400);
 ```
 
-<hr>
+---
 
 <h2 id="useemote">
   api.useEmote(<code>id</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -110,7 +110,7 @@ Permet d’utiliser une émote.
 api.useEmote(8); // Utile l"émote "Péter"
 ```
 
-<hr>
+---
 
 <h2 id="map-use-locked-house">
   api.useLockedHouse(<code>doorCellId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, lockCode: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)
@@ -124,7 +124,7 @@ Permet d’utiliser une porte de maison protégée par un code.
 yield * api.useLockedHouse(239, "00000000"); // Ouvre la porte en cellule 239 avec le code 00000000.
 ```
 
-<hr>
+---
 
 <h2 id="map-use-locked-storage">
   api.useLockedStorage(<code>elementCellId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, lockCode: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)
@@ -138,7 +138,7 @@ Permet d’utiliser un coffre de maison protégé par un code.
 yield * api.useLockedStorage(127, "00000000"); // Ouvre le coffre en cellule 127 avec le code 00000000.
 ```
 
-<hr>
+---
 
 <h2 id="map-use-zaap">
   api.useZaap(<code>destinationMapId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -152,7 +152,7 @@ Permet d’utiliser un zaap.
 yield * api.useZaap(2545); // se téléporte sur le zaap de la map 2545.
 ```
 
-<hr>
+---
 
 <h2 id="map-use-zaapi">
   api.useZaapi(<code>destinationMapId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -166,7 +166,7 @@ Permet d’utiliser un zaapi.
 yield * api.useZaapi(3545); // se téléporte sur le zaapi de la map 3545.
 ```
 
-<hr>
+---
 
 <h2 id="map-use-paddock">
   api.usePaddock()
@@ -180,7 +180,7 @@ Permet d’utiliser l'enclos de la map.
 yield * api.usePaddock(); // ouvre l'enclos présent sur la map
 ```
 
-<hr>
+---
 
 <h2 id="map-use-well">
   api.useWell()
@@ -194,7 +194,7 @@ Permet de récolter le puit de la map.
 yield * api.useWell(); // récolte le puit présent sur la map
 ```
 
-<hr>
+---
 
 ## api.saveZaap()
 
@@ -208,7 +208,7 @@ if (onMap("0,-2")) {
 }
 ```
 
-<hr>
+---
 
 <h2 id="map-wait-map-change">
   api.waitMapChange(<code>delay?</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -222,7 +222,7 @@ Met le script en pause jusqu’au prochain changement de map.
 yield * api.waitMapChange(2000); // Attend 2 secondes.
 ```
 
-<hr>
+---
 
 <h2 id="map-join-friend">
   api.joinFriend(<code>name</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)
@@ -236,7 +236,7 @@ Vous permet de rejoindre un ami. Disponible seulement si vous êtes à Incarnam.
 yield * api.joinFriend("Suniron"); // Se téléporte sur le personnage nommé "Suniron"
 ```
 
-<hr>
+---
 
 <h2 id="map-on-cell">
   onCell(<code>cellId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -252,7 +252,7 @@ Retourne true si le personnage est sur la cellule, sinon retourne false.
 api.printMessage("Je suis sur la cell 210 ? -> " + api.onCell(210)); // Affiche "Je suis sur la cell 210 -> false" si vous n'êtes pas sur la cell 210
 ```
 
-<hr>
+---
 
 <h2 id="map-current-cell">
   currentCell()
@@ -268,7 +268,7 @@ Retourne l'id de la celle actuelle du personnage
 api.printMessage("Je suis sur la cell " + api.currentCell()); // Affiche "Je suis sur la cell 210" si vous êtes sur la cell 210
 ```
 
-<hr>
+---
 
 <h2 id="map-on-map">
   api.onMap(<code>coords</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)
@@ -286,7 +286,7 @@ if (api.onMap("-2,0")) {
 }
 ```
 
-<hr>
+---
 
 ## currentPos()
 
@@ -300,7 +300,7 @@ Retourne les coordonnées de la map actuelle.
 api.onMap(api.currentPos()); // Retourne toujours true.
 ```
 
-<hr>
+---
 
 ## api.currentMapId()
 
@@ -317,7 +317,7 @@ if (api.currentMapId() === 88081177) {
 }
 ```
 
-<hr>
+---
 
 ## api.area()
 
@@ -333,7 +333,7 @@ if (api.area() === "Astrub") {
 }
 ```
 
-<hr>
+---
 
 ## api.subArea
 
@@ -349,7 +349,7 @@ if (api.subArea() === "Cité d'Astrub") {
 }
 ```
 
-<hr>
+---
 
 ## api.monstersGroups
 

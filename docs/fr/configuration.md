@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -45,7 +45,7 @@ Si vous ne déclarez pas une variable, elle aura une valeur par défaut. Vous n'
 
 _Remarque: ces variables doivent toutes etre définies dans l'object config, dans le cas contraire cela n'aurai aucune utilité._
 
-<hr>
+---
 
 ## MAX_PODS
 
@@ -61,7 +61,7 @@ api.config = { MAX_PODS: 100 }; // Retour en banque à 100% de pods
 
 _Valeur par défaut: Retour en banque à 90% de pods._
 
-<hr>
+---
 
 ## MIN_MONSTERS
 
@@ -77,7 +77,7 @@ api.config = { MIN_MONSTERS: 2 }; // Combattre les groupes de 2 monstres minimum
 
 _Valeur par défaut: 1._
 
-<hr>
+---
 
 ## MAX_MONSTERS
 
@@ -93,7 +93,7 @@ api.config = { MAX_MONSTERS: 5 }; // Combattre les groupes de 5 monstres maximum
 
 _Valeur par défaut: 8._
 
-<hr>
+---
 
 ## MIN_MONSTERS_LEVEL
 
@@ -109,7 +109,7 @@ api.config = { MIN_MONSTERS_LEVEL: 200 }; // Combattre les groupes de niveau 200
 
 _Valeur par défaut: niveau 1._
 
-<hr>
+---
 
 ## MAX_MONSTERS_LEVEL
 
@@ -125,7 +125,7 @@ api.config = { MAX_MONSTERS_LEVEL: 500 }; // Combattre les groupes de niveau 500
 
 _Valeur par défaut: niveau 1000._
 
-<hr>
+---
 
 ## MIN_XP_PER_FIGHT
 
@@ -141,7 +141,7 @@ api.config = { MIN_XP_PER_FIGHT: 500 }; // Combattre les groupes qui donnent min
 
 _Valeur par défaut: 0._
 
-<hr>
+---
 
 ## MAX_XP_PER_FIGHT
 
@@ -157,7 +157,7 @@ api.config = { MAX_XP_PER_FIGHT: 90888 }; // Combattre les groupes qui donnent m
 
 _Valeur par défaut: Infinity._
 
-<hr>
+---
 
 ## FORBIDDEN_MONSTERS
 
@@ -173,7 +173,7 @@ api.config = { FORBIDDEN_MONSTERS: [148, 134] }; // Ne pas attaquer les Chef de 
 
 _Valeur par défaut: pas de monstre interdit._
 
-<hr>
+---
 
 ## MANDATORY_MONSTERS
 
@@ -189,7 +189,7 @@ api.config = { MANDATORY_MONSTERS: [149] }; // Attaque uniquement s'il y a un Bo
 
 _Valeur par défaut: pas de monstre obligatoire._
 
-<hr>
+---
 
 ## MAX_FIGHTS_PER_MAP
 
@@ -205,7 +205,7 @@ api.config = { MAX_FIGHTS_PER_MAP: 10 }; // Le bot continuera le script après 1
 
 _Valeur par défaut: pas de limite au nombre de combat sur la map._
 
-<hr>
+---
 
 ## ELEMENTS_TO_GATHER
 
@@ -221,7 +221,7 @@ api.config = { ELEMENTS_TO_GATHER: [38, 43] }; // Récolte uniquement le Blé et
 
 _Valeur par défaut: récolte tous les éléments._
 
-<hr>
+---
 
 ## BANK_PUT_ITEMS
 
@@ -244,7 +244,7 @@ _Valeur par défaut: ne dépose rien._
 
 Si vous mettez une quantité de 0, toute la quantité de l'élément sera déposée.
 
-<hr>
+---
 
 ## BANK_GET_ITEMS
 
@@ -266,7 +266,7 @@ _Valeur par défaut: ne récupère aucun élément._
 
 Si vous mettez une quantité de 0, toute la quantité de l'élément sera récupérée.
 
-<hr>
+---
 
 ## BANK_PUT_KAMAS
 
@@ -284,7 +284,7 @@ _Valeur par défaut: ne dépose pas de kamas._
 
 Si vous mettez 0, tous les kamas seront déposés.
 
-<hr>
+---
 
 ## BANK_GET_KAMAS
 
@@ -302,7 +302,7 @@ _Valeur par défaut: ne récupère pas de kamas._
 
 Si vous mettez 0, tous les kamas seront récupérés.
 
-<hr>
+---
 
 ## AUTO_REGEN
 
@@ -330,7 +330,7 @@ Les items sont utilisés dans l'ordre, lorsque le premier item n'est plus dispon
 Lors du retour en banque, il prendra en priorité le premier élément si il est disponible en quantité suffisante, sinon il comblera avec le second item jusqu'à atteindre la quantité désirée.
 S'il n'y a plus d'items disponibles, le personnage attend d'avoir retrouvé ses points de vie avant de continuer.
 
-<hr>
+---
 
 ## AUTO_DELETE
 
@@ -352,7 +352,7 @@ Cette fonction est compatible avec le retour en banque, si le personnage est ful
 
 La suppression automatique se fait lorsque MAX_PODS est atteint.
 
-<hr>
+---
 
 ## OPEN_BAGS
 
@@ -368,7 +368,7 @@ api.config = { OPEN_BAGS: true };
 
 _Valeur par défaut: false, pas d'ouverture automatique des sacs._
 
-<hr>
+---
 
 ## DISPLAY_GATHER_COUNT
 
@@ -384,7 +384,7 @@ api.config = { DISPLAY_GATHER_COUNT: true }; // Affiche le compteur de récoltes
 
 _Valeur par défaut: pas d'affichage du compteur de récoltes._
 
-<hr>
+---
 
 ## DISPLAY_FIGHT_COUNT
 
@@ -400,7 +400,7 @@ api.config = { DISPLAY_FIGHT_COUNT: true }; // Affiche le compteur de combats
 
 _Valeur par défaut: pas d'affichage du compteur de combats._
 
-<hr>
+---
 
 # Mise en pratique
 

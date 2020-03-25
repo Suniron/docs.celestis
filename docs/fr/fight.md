@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -94,7 +94,7 @@ api.config = {
 };
 ```
 
-<hr>
+---
 
 <h2 id ="fight-can-fight">canFight(<code>forbiddenMonsters</code>, <code>mandatoryMonsters</code>, <code>minMonsters</code>, <code>maxMonsters</code>, <code>minLevel</code>, <code>maxLevel</code>, <code>minXp</code>, <code>maxXp</code>)</h2>
 
@@ -104,7 +104,8 @@ Verifie si un groupe de monstres de la map correspond aux paramètres passés à
 api.canFight([64], [68], 2, 6, 200, 600, 800, 1000); // Vérifie si, sur cette map, le bot peut combattre un groupe de 2 à 6 mobs avec un Wabbit au minimum et aucun Black Tiwabbit. Le groupe doit avoir un niveau supérieur ou égal à 200 et inférieur ou égal à 600 qui donne entre 800 et 1000 XP sans challenges.
 ```
 
-<hr>
+---
+
 <h2 id ="fight-fight">fight(<code>forbiddenMonsters</code>, <code>mandatoryMonsters</code>, <code>minMonsters</code>, <code>maxMonsters</code>, <code>minLevel</code>, <code>maxLevel</code>, <code>minXp</code>, <code>maxXp</code>)</h2>
 
 Lance un combat sur un groupe qui correspond aux paramètres passés à la fonction.
@@ -113,7 +114,8 @@ Lance un combat sur un groupe qui correspond aux paramètres passés à la fonct
 yield * api.fight([], [], 2, 6, 200, 600, 800, 1000); // Attaque si, sur cette map, un groupe vérifie les paramètres: un groupe de 2 à 6 mobs avec un Wabbit au minimum et aucun Black Tiwabbit. Le groupe doit avoir un niveau supérieur ou égal à 200 et inférieur ou égal à 600 qui donne entre 800 et 1000 XP sans challenges.
 ```
 
-<hr>
+---
+
 <h2 id ="fight-fightscount">fightsCount()</h2>
 
 Retourne le nombre de combats fait durant la session.

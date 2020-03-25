@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -38,7 +38,7 @@ while (exchange.weightP() > 10) {
 }
 ```
 
-<hr>
+---
 
 <h2 id="exchange-target-weight-p">exchange.targetWeightP</h2>
 
@@ -54,7 +54,7 @@ while (exchange.targetWeightP() < 90) {
 }
 ```
 
-<hr>
+---
 
 <h2 id="exchange-start-exchange">exchange.startExchange(<code>playerId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)</h2>
 
@@ -66,7 +66,7 @@ yield * api.echange.startExchange(7127912);
 
 _Note: il est possible de récupérer le playerId à coté de votre nom dans l'onglet personnage._
 
-<hr>
+---
 
 ## api.echange.sendReady()
 
@@ -76,7 +76,7 @@ Valide l'échange.
 yield * api.echange.sendReady();
 ```
 
-<hr>
+---
 
 <h2 id="exchange-put-item">exchange.putItem(<code>gid/uid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)</h2>
 
@@ -86,7 +86,7 @@ Insère un objet dans l’échange.
 yield * api.echange.putItem(289, 100); // quantity = 0 pour tout mettre.
 ```
 
-<hr>
+---
 
 <h2 id="exchange-remove-item">exchange.removeItem(<code>gid/uid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)</h2>
 
@@ -96,7 +96,7 @@ Récupère un objet dans l’échange.
 yield * api.echange.removeItem(289, 100); // Enlève 100 blé à l'échange.
 ```
 
-<hr>
+---
 
 <h2 id="exchange-put-kamas">exchange.putKamas(<code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)</h2>
 
@@ -106,7 +106,7 @@ Insère une quantité donnée de kamas dans l’échange.
 yield * api.echange.putKamas(10000); // Ajoute 10 000 kamas à l'échange.
 ```
 
-<hr>
+---
 
 <h2 id="exchange-remove-kamas">exchange.removeKamas(<code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)</h2>
 
@@ -116,7 +116,7 @@ Retire une quantité donnée de kamas dans l'échange.
 yield * api.echange.removeKamas(10000); // Retire 10 000 kamas à l'échange.
 ```
 
-<hr>
+---
 
 ## api.echange.putAllItems()
 
@@ -126,7 +126,7 @@ Insère tous les objets de votre inventaire dans l’échange.
 yield * api.echange.putAllItems();
 ```
 
-<hr>
+---
 
 ## api.echange.removeAllItems()
 
@@ -136,7 +136,7 @@ Retire tous les items de l'échange.
 yield * api.echange.removeAllItems();
 ```
 
-<hr>
+---
 
 ## api.echange.startShop()
 
@@ -146,7 +146,7 @@ Démarre votre mode marchand
 yield * api.echange.startShop();
 ```
 
-<hr>
+---
 
 <h2 id="exchangeadditemshop">exchange.addItemShop(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>price</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)</h2>
 
@@ -156,4 +156,4 @@ Ajoute un item à votre mode marchand
 yield * api.echange.addItemShop(289, 10, 20); // Ajoute 10 blé à 20k/u à votre mode marchand
 ```
 
-<hr>
+---

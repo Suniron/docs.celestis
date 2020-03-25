@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -91,7 +91,7 @@ api.move = [
 ];
 ```
 
-<hr>
+---
 
 <h2 id = "move">move</h2>
 
@@ -112,7 +112,7 @@ async function* api.usePotion() {
 }
 ```
 
-<hr>
+---
 
 <h2 id = "bank">bank</h2>
 - Valeur: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Reference/Global_Objects/Array">Array<{ map; path; gather; fight; npcBank; phenix; door; custom }></a>
@@ -137,7 +137,7 @@ Ici, les mapId sont utilisés pour différencier l'interieur de l'exterieur de l
 
 npcBank est définit à true, le bot va donc ouvrir la banque et executer les actions prédéfinies dans [Configuration](configuration.md).
 
-<hr>
+---
 
 <h2 id = "phenix">phenix</h2>
 - Valeur: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Reference/Global_Objects/Array">Array<{ map; path; gather; fight; npcBank; phenix; door; custom }></a>

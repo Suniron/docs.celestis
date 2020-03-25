@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -41,7 +41,7 @@ Retourne tous les objets présents en inventaire.
 const objects = api.inventory.objects();
 ```
 
-<hr>
+---
 
 ## api.inventory.consumables()
 
@@ -53,7 +53,7 @@ Retourne tous les consomables présents en inventaire.
 const consumables = api.inventory.consumables();
 ```
 
-<hr>
+---
 
 ## api.inventory.equipments()
 
@@ -65,7 +65,7 @@ Retourne tous les équipements présents en inventaire.
 const equipments = api.inventory.equipments();
 ```
 
-<hr>
+---
 
 ## api.inventory.resources()
 
@@ -77,7 +77,7 @@ Retourne tous les ressources présentes en inventaire.
 const resources = api.inventory.resources();
 ```
 
-<hr>
+---
 
 ## api.inventory.questObjects()
 
@@ -89,7 +89,7 @@ Retourne tous les objets de quêtes présents en inventaire.
 const questObjects = api.inventory.questObjects();
 ```
 
-<hr>
+---
 
 ## api.inventory.pods()
 
@@ -101,7 +101,7 @@ Retourne le nombre de pods utilisés.
 const pods = api.inventory.pods();
 ```
 
-<hr>
+---
 
 ## api.inventory.podsMax()
 
@@ -113,7 +113,7 @@ Retourne les pods maximum du personnage.
 const podsMax = api.inventory.podsMax();
 ```
 
-<hr>
+---
 
 ## api.inventory.podsP()
 
@@ -125,7 +125,7 @@ Retourne le pourcentage de pods utilisés.
 const podsP = api.inventory.podsP();
 ```
 
-<hr>
+---
 
 ## api.inventory.equipedItems()
 
@@ -137,7 +137,7 @@ Retourne les items équipés
 const items = api.inventory.equipedItems();
 ```
 
-<hr>
+---
 
 <h2 id="inventoryisequiped">
   api.inventory.isEquiped(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -151,7 +151,7 @@ Retourne true si l'item est équipé sinon false
 const equiped = api.inventory.isEquiped(2411); // `equiped` seras true si vous avec une Coiffe du Bouftou d'équipé
 ```
 
-<hr>
+---
 
 <h2 id="inventaire-item-count">
   api.inventory.itemCount(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -167,7 +167,7 @@ Retourne le nombre d’objets dans l’inventaire.
 const nombreBle = api.inventory.itemCount(289); // Retourne le nombre de blé dans l'inventaire.
 ```
 
-<hr>
+---
 
 <h2 id="inventaire-item-weight">
   api.inventory.itemWeight(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -183,7 +183,7 @@ Retourne le poids d’un item dans l’inventaire.
 const wheatWeight = api.inventory.itemWeight(289); // Retourne le poids d'un blé (2).
 ```
 
-<hr>
+---
 
 <h2 id="inventaire-item-use">
   api.inventory.useItem(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, quantity: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -197,7 +197,7 @@ Permet d’utiliser un objet..
 yield * api.inventory.useItem(6965); // Utilise une Potion de Cité Bonta.
 ```
 
-<hr>
+---
 
 <h2 id="inventaire-item-equip">
   api.inventory.equipItem(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -211,7 +211,7 @@ Permet d'équiper un item.
 yield * api.inventory.equipItem(8575); // Equipe votre Ramboton.
 ```
 
-<hr>
+---
 
 <h2 id="inventaire-item-un-equip">
   api.inventory.unEquipItem(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -225,7 +225,7 @@ Permet de déséquiper un item.
 yield * api.inventory.unEquipItem(7865); // Désequipe votre Dragodinde Squelette.
 ```
 
-<hr>
+---
 
 <h2 id="inventaire-item-drop">
   api.inventory.dropItem(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -239,7 +239,7 @@ Permet de jetter un item.
 yield * api.inventory.dropItem(289, 50); // Drop 50 blé.
 ```
 
-<hr>
+---
 
 <h2 id="inventaire-item-delete">
   api.inventory.deleteItem(<code>gid</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>quantity</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)

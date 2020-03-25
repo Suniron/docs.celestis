@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 ## Sommaire
 
@@ -31,7 +31,7 @@ Retourne true si la quête est active sinon false
 const isActive = api.quests.isActive(3); // Return true si la quête "La discorde végétale" est lancée
 ```
 
-<hr>
+---
 
 <h2 id="iscompleted">
   api.quests.isCompleted(<code>questId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -45,7 +45,7 @@ Retourne true si la quête est finie sinon false
 const isCompleted = api.quests.isCompleted(3); // Return true si la quête "La discorde végétale" est finie
 ```
 
-<hr>
+---
 
 <h2 id="currentstep">
   api.quests.currentStep(<code>questId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -59,7 +59,7 @@ Retourne l'id de l'étape actuelle de la quête
 const currentStep = api.quests.currentStep(3);
 ```
 
-<hr>
+---
 
 <h2 id="objectivesneeded">
   api.quests.objectivesNeeded(<code>questId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -73,7 +73,7 @@ Retourne un tableau avec tous les ids d'objectifs a réaliser pour cette quête
 const objectivesNeeded = api.quests.objectivesNeeded(3);
 ```
 
-<hr>
+---
 
 <h2 id="needobjective">
   api.quests.needObjective(<code>questId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>, <code>objectiveId</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Number_type">number</a>)
@@ -87,4 +87,4 @@ Retourne true si on a besoin de cet objectif sinon false
 const needObjective = api.quests.needObjective(3, 100);
 ```
 
-<hr>
+---

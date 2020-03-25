@@ -2,7 +2,7 @@
 
 [Sommaire](README.md) | [Sommaire détaillé](singlepage.md)
 
-<hr>
+---
 
 - [Introduction](introduction.md)
 - [Data](data.md)
@@ -24,4 +24,4 @@
 - [Personnage](character.md)
 - [Stockage](storage.md)
 
-<hr>
+---
