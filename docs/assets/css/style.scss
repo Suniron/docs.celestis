@@ -65,44 +65,4 @@ BROWN_DUSK_60: "#2C212C"  -> Background secondary (2)
   color: #4f414e;
   color: #2c212c;
 }
-
-@import "{{ site.theme }}";
-body {
-  color: #f5b894;
-  background-color: #4f414e;
-}
-.markdown-body .highlight pre,
-.markdown-body pre {
-  background-color: #2c212c;
-}
-.highlight .k,
-.highlight .kv {
-  color: #b58900;
-}
-.highlight .kd {
-  color: #859900;
-}
-.highlight .o {
-  color: #e74c3c;
-}
-.markdown-body table tr {
-  background-color: #736772;
-}
-.markdown-body table tr:nth-child(2n) {
-  background-color: #2c212c;
-}
-a {
-  color: #ca2f49;
-}
-
-.markdown-body hr {
-  background-color: #99aab5;
-}
-
-.markdown-body h1 {
-  border-color: #99aab5;
-}
-.highlight {
-  background-color: #f8f8f800;
-}
 */
