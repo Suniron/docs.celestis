@@ -1,11 +1,14 @@
+---
+---
+
 @import "{{ site.theme }}";
 body {
-  color: #dcddde;
-  background-color: #e74c3c;
+  color: #f5b894;
+  background-color: #4f414e;
 }
 .markdown-body .highlight pre,
 .markdown-body pre {
-  background-color: #2f3136;
+  background-color: #4f414e;
 }
 .highlight .k,
 .highlight .kv {
@@ -21,7 +24,7 @@ body {
   background-color: #2f3136;
 }
 a {
-  color: #0096cf;
+  color: #ca2f49;
 }
 
 .markdown-body hr {
