@@ -19,6 +19,8 @@
   - [printError](#printerror)
   - [doneScript](#donescript)
   - [stopScript](#stopscript)
+  - [restartScript](#restartscript)
+  - [reloadScript](#reloadscript)
   - [delay](#delay)
   - [leaveDialog](#leavedialog)
 
@@ -185,6 +187,34 @@ yield *
 ```
 
 PS: Si vous aviez la planification d'activé le compte se déconnecte bien et n'essaye pas de se reconnecter instantanément, il va simplement repasser votre heure sur désactivé, et le reactivé à sa prochaine plage de connexion.
+
+---
+
+<h2 id="restartscript">api.restartScript()
+
+Permet de redémarrer le script.
+
+_TODO: définition à finir_
+
+**Exemple:**
+
+```js
+api.restartScript(); // redémarre le script
+```
+
+---
+
+<h2 id="reloadscript">api.reloadScript()
+
+Permet de recharger le script.
+
+_TODO: définition à finir_
+
+**Exemple:**
+
+```js
+api.reloadScript(); // recharge le script
+```
 
 ---
 
