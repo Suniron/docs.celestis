@@ -17,6 +17,7 @@
   - [printDebug](#printdebug)
   - [printSuccess](#printsuccess)
   - [printError](#printerror)
+  - [doneScript](#donescript)
   - [stopScript](#stopscript)
   - [delay](#delay)
   - [leaveDialog](#leavedialog)
@@ -149,16 +150,38 @@ printError("Ceci est un message d'erreur");
 
 ---
 
-<h2 id="doneScript">api.doneScript(<code>reason?</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>, <code>disconnect?</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Boolean_type">boolean</a>)</h2>
+<h2 id="donescript">yield* api.doneScript(<code>reason?</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>, <code>disconnect?</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Boolean_type">boolean</a>)</h2>
 
 Stoppe et termine le script immédiatement. (Vous pouvez préciser une raison, et même déconnecter le compte)
 
 **Exemple:**
 
 ```js
-api.doneScript(); // Arrête le script sans raison et laisse le personnage connecté
-api.doneScript("J'ai fini"); // Arrête le script en disant "J'ai fini" et laisse le personnage connecté
-api.doneScript("J'ai fini", true); // Arrête le script en disant "J'ai fini" et déconnecte le personnage
+yield * api.doneScript(); // Arrête le script sans raison et laisse le personnage connecté
+yield * api.doneScript("J'ai fini"); // Arrête le script en disant "J'ai fini" et laisse le personnage connecté
+yield * api.doneScript("J'ai fini", true); // Arrête le script en disant "J'ai fini" et déconnecte le personnage
+```
+
+PS: Si vous aviez la planification d'activé le compte se déconnecte bien et n'essaye pas de se reconnecter instantanément, il va simplement repasser votre heure sur désactivé, et le reactivé à sa prochaine plage de connexion.
+
+---
+
+<h2 id="stopscript">yield* api.stopScript(<code>reason?</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>, <code>disconnect?</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#Boolean_type">boolean</a>)</h2>
+
+Stoppe et termine le script immédiatement. (Vous pouvez préciser une raison, et même déconnecter le compte)
+
+Cette action est similaire à `api.doneScript()` mais doit être plutôt utilisée lorsque quelque chose s'est mal passé.
+
+**Exemple:**
+
+```js
+yield * api.stopScript(); // Arrête le script sans raison et laisse le personnage connecté
+yield * api.stopScript("Oups, quelquechose ne s'est pas bien passé! :("); // Arrête le script en affichant un message et laisse le personnage connecté
+yield *
+  api.stopScript(
+    "Il y a un problème dans le script. Je me déconnecte en attendant.",
+    true
+  ); // Arrête le script en affichant un message et déconnecte le personnage
 ```
 
 PS: Si vous aviez la planification d'activé le compte se déconnecte bien et n'essaye pas de se reconnecter instantanément, il va simplement repasser votre heure sur désactivé, et le reactivé à sa prochaine plage de connexion.
