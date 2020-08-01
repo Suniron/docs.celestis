@@ -110,7 +110,7 @@ api.printTelegram("Ceci est un message.");
 
 ---
 
-<h2 id="printdebug">printDebug(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
+<h2 id="printdebug">api.printDebug(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
 
 **Obsolète?**
 
@@ -119,12 +119,12 @@ Affiche un message de debug dans la console.
 **Exemple:**
 
 ```js
-printDebug("Ceci est un message de debug.");
+api.printDebug("Ceci est un message de debug.");
 ```
 
 ---
 
-<h2 id="printsuccess">printSuccess(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
+<h2 id="printsuccess">api.printSuccess(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
 
 **Obsolète?**
 
@@ -133,12 +133,12 @@ Affiche un succès dans la console.
 **Exemple:**
 
 ```js
-printSuccess("Ceci est un message de succès.");
+api.printSuccess("Ceci est un message de succès.");
 ```
 
 ---
 
-<h2 id="printerror">printError(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
+<h2 id="printerror">api.printError(<code>message</code>: <a href="https://developer.mozilla.org/fr-Fr/docs/Web/JavaScript/Data_structures#String_type">string</a>)</h2>
 
 **Obsolète?**
 
@@ -147,7 +147,7 @@ Affiche une erreur dans la console.
 **Exemple:**
 
 ```js
-printError("Ceci est un message d'erreur");
+api.printError("Ceci est un message d'erreur");
 ```
 
 ---
@@ -190,7 +190,7 @@ PS: Si vous aviez la planification d'activé le compte se déconnecte bien et n'
 
 ---
 
-<h2 id="restartscript">api.restartScript()
+<h2 id="restartscript">api.restartScript()</h2>
 
 Permet de redémarrer le script.
 
@@ -204,7 +204,7 @@ api.restartScript(); // redémarre le script
 
 ---
 
-<h2 id="reloadscript">api.reloadScript()
+<h2 id="reloadscript">api.reloadScript()</h2>
 
 Permet de recharger le script.
 
